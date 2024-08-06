@@ -1,0 +1,92 @@
+{
+  "Name": "_gallery component [COMP]",
+  "Alias": "galleryComponentCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "7e99911d-8419-487e-a71a-67f035b76a11",
+      "Name": "Image Gallery",
+      "SortOrder": 450,
+      "Type": 1,
+      "Alias": "imageGallery",
+      "PropertyTypes": [
+        {
+          "Key": "a9d17070-3390-472f-905b-79d7b9bb010d",
+          "Alias": "heading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "This field is optional",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Heading",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "b17b6f66-ba94-4f86-9a58-fa05fb147df1",
+          "Alias": "images",
+          "DataType": "umb://data-type/0e63d883b62b479988c3157f82e83ecc",
+          "Description": "Used for selecting multiple images to be shown  in the gallery carousel.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Images",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/455d71dd9a4040f6bc12f56710755a08",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/0e63d883b62b479988c3157f82e83ecc",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

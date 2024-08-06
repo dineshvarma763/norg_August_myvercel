@@ -1,0 +1,156 @@
+{
+  "Name": "Explore The Range Block",
+  "Alias": "productListCategoryCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-location-nearby color-blue",
+  "Thumbnail": "folder.png",
+  "Description": "Displays a product category, its sub-categories and the products under the sub-category",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "b8f55d4b-0246-4b99-9acb-053ebdd98bed",
+      "Name": "Categories",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "categories",
+      "PropertyTypes": [
+        {
+          "Key": "1ecaa812-5d1b-4446-a8d0-ff83bbd44bf8",
+          "Alias": "fullSectionBackgroundColour",
+          "DataType": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Full Section Background Colour",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "32e973fc-6386-4314-a744-6e490ef297ff",
+          "Alias": "heading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Heading",
+          "SortOrder": 4,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "37efe9e1-e5ee-4612-a8ab-1e7fcf327990",
+          "Alias": "backgroundColour",
+          "DataType": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Header Background Colour",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "892346ff-5855-4d38-8b37-77415842f174",
+          "Alias": "button",
+          "DataType": "umb://data-type/2c948ed2c771409a97be679a8f1c5286",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Button",
+          "SortOrder": 3,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "c26bfa72-36f9-48b0-85b9-f46f8ceb6a99",
+          "Alias": "introductionText",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Introduction Text",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a9fb28462c0f419ea75f838697e07da2",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2c948ed2c771409a97be679a8f1c5286",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

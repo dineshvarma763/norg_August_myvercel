@@ -1,0 +1,32 @@
+{
+  "Name": "Three Image Section - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "ed4bc533-2149-4ed7-9f5b-c74a25763137",
+        "label": "{{heading}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "backgroundColor": "#cfe2f3",
+        "iconColor": "#6aa84f",
+        "contentElementTypeKey": "c4283a2a-d976-48af-b5a0-6991c966768e",
+        "label": "{{heading}}",
+        "editorSize": "small",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/aca7795dd3c94da689c5c668db6aff12",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

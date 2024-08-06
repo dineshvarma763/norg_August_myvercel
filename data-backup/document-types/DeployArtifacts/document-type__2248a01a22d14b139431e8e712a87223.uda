@@ -1,0 +1,69 @@
+{
+  "Name": "_rich Text Simple [COMP]",
+  "Alias": "richTextSimpleCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "a2b2019b-5003-4c5a-85d1-6e368e0e4870",
+      "Name": "Rich Text",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "richText",
+      "PropertyTypes": [
+        {
+          "Key": "39c67215-f806-4109-a23a-9d64f78ab5cf",
+          "Alias": "body",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "body",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/2248a01a22d14b139431e8e712a87223",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

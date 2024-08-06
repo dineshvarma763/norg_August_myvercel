@@ -1,0 +1,17 @@
+{
+  "Name": "TrueFalse (Default to True)",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TrueFalse",
+  "DatabaseType": 2,
+  "Configuration": {
+    "default": true,
+    "showLabels": true,
+    "labelOn": "True",
+    "labelOff": "False"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

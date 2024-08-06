@@ -1,0 +1,200 @@
+{
+  "Name": "Navigation Item [COMP]",
+  "Alias": "navigationItemCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "3de6dd34-cf70-4fa4-9c77-ee276a15525f",
+      "Name": "Navigation Item",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "navigationItem/navigationItem",
+      "PropertyTypes": [
+        {
+          "Key": "7d41345d-f28d-49e7-b348-9fb36134b638",
+          "Alias": "showInNavigation",
+          "DataType": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Show In Navigation",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "d998d912-796a-4c49-a2c7-97ab62e986d0",
+          "Alias": "showAsButton",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Show As Button",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "fb19f4a9-8ee8-4ea5-b2ad-02533166136a",
+          "Alias": "externalLink",
+          "DataType": "umb://data-type/2c948ed2c771409a97be679a8f1c5286",
+          "Description": "This field can be used to link pages to external URLs in the navigation. It is advised to also set the No Index field and hide the page from the Sitemap in the SEO Tab.  Note that the Super Alias field if set will take precedence.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "External Link",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "9fbb0c7d-3055-46d3-a289-7e5c734a6a2f",
+      "Name": "Link Settings",
+      "SortOrder": 2,
+      "Type": 0,
+      "Alias": "navigationItem/linkSettings",
+      "PropertyTypes": [
+        {
+          "Key": "f957a5ec-6b4c-41ee-b2f4-bd6813564172",
+          "Alias": "prefetch",
+          "DataType": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+          "Description": "https://nextjs.org/docs/app/api-reference/components/link\nThis should generally only be changed by developers. It controls the linking behaviour between pages as per the Next.JS documentation.  Some pages that require certain javascript to load each time should have this set to false.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Prefetch",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "acec6fcc-6eb6-4c67-b675-291082189ede",
+      "Name": "Navigation Item",
+      "SortOrder": 998,
+      "Type": 1,
+      "Alias": "navigationItem",
+      "PropertyTypes": []
+    },
+    {
+      "Key": "db8be185-f62f-492c-9621-49b3f0b615ed",
+      "Name": "Aliases",
+      "SortOrder": 1,
+      "Type": 0,
+      "Alias": "navigationItem/aliases",
+      "PropertyTypes": [
+        {
+          "Key": "2d64fd70-7631-4772-9576-b0cfe5c45103",
+          "Alias": "umbracoUrlName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "umbracoUrlName",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "c36f7b25-00e2-4f6c-9beb-6495a460dc59",
+          "Alias": "superAlias",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "If used this will take precedence over Umbraco Aliases, URL structures and External Link. This field changes the URL for the current page only. If children URLs also need updating, the child's Super Alias should also be set.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Super Alias",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e4c1c06a5e054127a2b63d84413f0f41",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2c948ed2c771409a97be679a8f1c5286",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,133 @@
+{
+  "Name": "_showcase Block Old",
+  "Alias": "showcaseBlocOldk",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-science",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "2056edf9-69ac-4d54-88e3-b4d95537b4c9",
+      "Name": "Showcase Details",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "showcaseDetails",
+      "PropertyTypes": [
+        {
+          "Key": "8b1c0495-7f7f-48ad-868e-454bb3a43201",
+          "Alias": "showcaseImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Image",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "8b46258f-5920-4a67-bcd0-0887d55a3c70",
+          "Alias": "showcaseDescription",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Description",
+          "SortOrder": 3,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "b428c9d2-454f-417e-8715-548f82e208c6",
+          "Alias": "showcaseTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Title",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "bf8fbed9-7eb3-41c3-8802-268cfe753ce5",
+          "Alias": "showcaseType",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Type",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a73807dfedfa4bfda428d28e03fa1ff5",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

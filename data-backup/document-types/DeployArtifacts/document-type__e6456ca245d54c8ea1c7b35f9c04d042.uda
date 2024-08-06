@@ -1,0 +1,226 @@
+{
+  "Name": "Footer",
+  "Alias": "footer",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-footprints color-pink",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "322a8b94-87d9-44ce-bfdf-326efd552fa3",
+      "Name": "Links",
+      "SortOrder": 3,
+      "Type": 1,
+      "Alias": "links",
+      "PropertyTypes": [
+        {
+          "Key": "1d419eec-24ec-4558-8ab8-7f06ea19bd62",
+          "Alias": "linkSections",
+          "DataType": "umb://data-type/122f4f21c9c84bb9ab0457491a903d2a",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Link Sections",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "5145cd56-521d-4548-bb4a-89fbd04a13a7",
+      "Name": "Copyright",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "copyright",
+      "PropertyTypes": [
+        {
+          "Key": "c426882f-3537-496c-a3f2-bbfb0252c937",
+          "Alias": "copyrightNotice",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Copyright Notice",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "b47eda6e-9149-4bf2-8c56-c8e93ec7cfc3",
+      "Name": "Sticky Mobile Footer",
+      "SortOrder": 2,
+      "Type": 1,
+      "Alias": "stickyMobileFooter",
+      "PropertyTypes": [
+        {
+          "Key": "0b4a1907-de81-4b52-a2d7-ef9ccafea217",
+          "Alias": "button",
+          "DataType": "umb://data-type/2c948ed2c771409a97be679a8f1c5286",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Button",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "8cc9d84a-0a47-4100-afa1-331d38cb87a5",
+          "Alias": "phoneNumber",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Phone Number",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "c05636cf-32b5-4c25-866d-66f0306986cd",
+      "Name": "Logos",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "logos",
+      "PropertyTypes": [
+        {
+          "Key": "1f5fa191-09dc-4ef8-b582-889cea1e9610",
+          "Alias": "leftLogo",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Left Logo",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "a481d09f-e702-462f-9163-7f6929431993",
+          "Alias": "bDLogo",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "B&D Logo",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "caf16b55-6a0e-4edb-976d-ae604f2f634c",
+          "Alias": "rightLogo",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Dulux Logo",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e6456ca245d54c8ea1c7b35f9c04d042",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/122f4f21c9c84bb9ab0457491a903d2a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2c948ed2c771409a97be679a8f1c5286",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,88 @@
+{
+  "Name": "Key Features",
+  "Alias": "keyFeatures",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-award color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+    "umb://document-type/ed4bc53321494ed79f5bc74a25763137",
+    "umb://document-type/f932b1bd134b4cf29785520c4a7714fa"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "01eb8b7d-b266-4b8f-a758-ac381c887cc3",
+      "Name": "Key Features",
+      "SortOrder": 1001,
+      "Type": 1,
+      "Alias": "keyFeatures",
+      "PropertyTypes": [
+        {
+          "Key": "31c665bb-e6d7-42e3-95e6-672c94a6ad09",
+          "Alias": "keyFeatures",
+          "DataType": "umb://data-type/9c781b0db89f40b689560948ae31b866",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Key Features",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/24f693e9aadb4ffc9a9d576c60e23a09",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/9c781b0db89f40b689560948ae31b866",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ed4bc53321494ed79f5bc74a25763137",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

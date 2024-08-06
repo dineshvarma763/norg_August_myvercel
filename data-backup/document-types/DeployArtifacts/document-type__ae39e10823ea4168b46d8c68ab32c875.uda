@@ -1,0 +1,69 @@
+{
+  "Name": "Page Layout [COMP]",
+  "Alias": "pageLayoutCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "bf36c854-f474-42ff-90b7-1e9a48ae0b43",
+      "Name": "Page Layout Settings",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "pageLayoutSettings",
+      "PropertyTypes": [
+        {
+          "Key": "b594a343-e81f-4248-98f4-a0c286247f33",
+          "Alias": "pageLayout",
+          "DataType": "umb://data-type/c681f37b82a74334913114bcb2f8f811",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Page Layout",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/ae39e10823ea4168b46d8c68ab32c875",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/c681f37b82a74334913114bcb2f8f811",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

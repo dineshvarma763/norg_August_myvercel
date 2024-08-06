@@ -1,0 +1,50 @@
+{
+  "Name": "Product Downloads",
+  "Alias": "productDownloads",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-page-down color-brown",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type/f5416fc4e3004b82bcc66ce923309af9",
+  "CompositionContentTypes": [
+    "umb://document-type/c77893640a6f4b16a1359c5742a5cc34",
+    "umb://document-type/f5416fc4e3004b82bcc66ce923309af9",
+    "umb://document-type/f932b1bd134b4cf29785520c4a7714fa"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b3d7a44836994a8aa7a0327718697e39",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/c77893640a6f4b16a1359c5742a5cc34",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f5416fc4e3004b82bcc66ce923309af9",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

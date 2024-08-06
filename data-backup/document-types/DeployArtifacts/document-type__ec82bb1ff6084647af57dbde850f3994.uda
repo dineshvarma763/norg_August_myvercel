@@ -1,0 +1,49 @@
+{
+  "Name": "Call To Action (CTA)",
+  "Alias": "callToAction",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-parachute-drop color-light-green",
+  "Thumbnail": "folder.png",
+  "Description": "A call to action represents a link, action, promotion that triggers the user to navigate somewhere.",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/63b6a4cc5f2048bcabbc8de93bd627b8",
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/ec82bb1ff6084647af57dbde850f3994",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/63b6a4cc5f2048bcabbc8de93bd627b8",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,36 @@
+{
+  "Name": "_promonav component [COMP] - Component - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "d1371840-1d4e-4398-a2fb-fcc3c8ab6e18",
+        "label": "{{casestudyTitle}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "contentElementTypeKey": "1f1d07b4-cb2e-4d1e-b924-26235fb04a7a",
+        "label": "{{testimonialMessage}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "contentElementTypeKey": "7d287647-dc60-4481-a1d4-f946534b166c",
+        "label": "{{showcaseTitle}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": true,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c0073786dd62476c9b17a01557437a41",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

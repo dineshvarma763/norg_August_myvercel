@@ -1,0 +1,24 @@
+{
+  "Name": "Hero Buttons Listing Section - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "3dc19ff4-a458-43ee-ba68-36836b98b1a1",
+        "label": "{{buttonText}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/ae27e5511f734a7490b5ee748cac3277",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

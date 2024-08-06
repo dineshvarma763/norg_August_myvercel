@@ -1,0 +1,123 @@
+{
+  "Name": "Redirect [COMP]",
+  "Alias": "redirectCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "1b419160-82f6-4461-8d39-d911baa118b9",
+      "Name": "Redirect",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "redirectSettings/redirect",
+      "PropertyTypes": [
+        {
+          "Key": "29bd2a80-04c7-47b4-ad8d-073963d4bb41",
+          "Alias": "isPermanent",
+          "DataType": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Is Permanent",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "e6b11942-e6d6-48a8-bcef-5ef19a3e67c0",
+          "Alias": "source",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Source",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "e85ebc2f-6df1-4b61-b930-10355d742c1c",
+          "Alias": "destination",
+          "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Destination",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "72c4a5a8-fa5e-4fb0-861a-e6b7db19c25b",
+      "Name": "Redirect Settings",
+      "SortOrder": 2000,
+      "Type": 1,
+      "Alias": "redirectSettings",
+      "PropertyTypes": []
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/e28b8c9ec7d04c4ab4e41e829ff149ca",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Quote",
+  "Alias": "my-quote",
+  "Icon": "icon-quote color-black",
+  "Javascript": "export default class extends HTMLElement {\r\n  #textarea\r\n  #template = `<textarea\r\n    rows=\"1\"\r\n    placeholder=\"Write here...\"\r\n    class=\"textstring input-block-level\"\r\n    style=\"border-left: 3px solid #ccc; padding: 10px; color: #ccc; font-family: serif; font-style: italic; font-size: 18px\"></textarea>`\r\n\r\n  constructor() {\r\n    super()\r\n\r\n    this.innerHTML = this.#template\r\n    this.#textarea = this.querySelector('textarea')\r\n  }\r\n\r\n  click() {\r\n    this.#textarea.focus()\r\n  }\r\n\r\n  get value() { return this.#textarea.value }\r\n  set value(value) {\r\n    this.#textarea.value = value || ''\r\n  }\r\n}",
+  "Schema": null,
+  "Udi": "umb://headless-grideditor/1bbcc092caae400381cdc87d9a05e1f7",
+  "Dependencies": [],
+  "__type": "Umbraco.Cloud.Headless,Umbraco.Cloud.Headless.Deploy.HeadlessGridEditorArtifact",
+  "__version": "4.7.4"
+}

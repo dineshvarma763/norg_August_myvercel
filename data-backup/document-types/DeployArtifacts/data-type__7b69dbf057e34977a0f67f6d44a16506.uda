@@ -1,0 +1,12 @@
+{
+  "Name": "_hero component [COMP] - Font Weight - Textbox",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TextBox",
+  "DatabaseType": 1,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/7b69dbf057e34977a0f67f6d44a16506",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

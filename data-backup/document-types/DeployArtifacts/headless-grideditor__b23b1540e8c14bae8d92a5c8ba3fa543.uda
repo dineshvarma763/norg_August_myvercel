@@ -1,0 +1,11 @@
+{
+  "Name": "Rich Text Editor",
+  "Alias": "my-rte",
+  "Icon": "icon-article color-black",
+  "Javascript": "import { LitElement, html } from 'https://cdn.jsdelivr.net/gh/lit/dist@2/all/lit-all.min.js'\r\nimport '@headless-backoffice-bridge'\r\n\r\nexport default class extends LitElement {\r\n  static properties = {\r\n    value: { type: String }\r\n  }\r\n\r\n  #toolbar = [\r\n    'ace',\r\n    'styleselect',\r\n    'forecolor',\r\n    'backcolor',\r\n    'bold',\r\n    'italic',\r\n    'alignleft',\r\n    'aligncenter',\r\n    'alignright',\r\n    'bullist',\r\n    'numlist',\r\n    'outdent',\r\n    'indent',\r\n    'link',\r\n    'unlink',\r\n    'umbmediapicker',\r\n  ]\r\n\r\n  #stylesheets = [\"richtext.css\"]\r\n\r\n  createRenderRoot() { return this }\r\n\r\n  render() {\r\n    return html`<umbh-tinymce mode=\"classic\" max-image-size=\"500\" .stylesheets=${this.#stylesheets} .toolbar=${this.#toolbar} .value=${this.value} @input=${e => this.value = e.target.value}></umbh-tinymce>`\r\n   }\r\n}",
+  "Schema": "{\r\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\r\n    \"type\": \"string\",\r\n    \"format\": \"rich-text\"\r\n}\r\n",
+  "Udi": "umb://headless-grideditor/b23b1540e8c14bae8d92a5c8ba3fa543",
+  "Dependencies": [],
+  "__type": "Umbraco.Cloud.Headless,Umbraco.Cloud.Headless.Deploy.HeadlessGridEditorArtifact",
+  "__version": "4.7.4"
+}

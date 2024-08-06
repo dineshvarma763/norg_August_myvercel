@@ -1,0 +1,240 @@
+@tailwind base;
+
+@tailwind components;
+
+@import "./gallery.module.css";
+
+@import "../components/ui/sections/carousel/slick.min.css";
+@import "../components/ui/sections/carousel/slick-theme.min.css";
+@import "../components/ui/sections/carousel/carousel.module.css";
+
+@tailwind utilities;
+
+
+@layer utilities {
+
+  /* Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
+:root {
+
+  --ata-brown-grey: #3d3d3e;
+  --black-80: rgba(0, 0, 0, 0.8);
+  --dark-blue: #043176;
+  --dark-blue-400: rgba(4, 49, 118, 0.4);
+  --yellow: #faa634;
+  --lighter-yellow: #fed095;
+
+  --charcoal: #1F2A37;
+  --purple: #6C2BD9;
+  --grey: #9CA3AF;
+  --grey2: #4F4F4F;
+  --grey3: #6B7280;
+  --grey4: #CBD2DC;
+  --indigo: #5850ec;
+  --green-500: #0E9F6E;
+  --lighter-indigo: #9479FA;
+  --darker-indigo: #8F73F9;
+  --white: #ffffff;
+  --white2: #F2F2F2;
+  --white3: #F4F3F3;
+  --black: #000000;
+  --black-33: #333333;
+  --blue: #111928;
+  --btntext: #1F2A37;
+  --gray-700: #374151;
+  --border-gray-600: #4B5563;
+  --border-gray-700: #374151;
+  --br-white: #DEDEDE;
+  --border-purple: #6C2BD9;
+
+}
+
+body {
+  background-color: #111928;
+}
+
+a {
+  cursor: pointer;
+}
+
+.rich-text h2 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.rich-text h3 {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.rich-text h4 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.rich-text h5 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16x;
+  margin-bottom: 10px;
+}
+
+.rich-text p {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 20px;
+}
+
+.rich-text .list-none {
+  margin-bottom: 20px;
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.rich-text .list-none li {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+
+input[type="date"]::-webkit-date-and-time-value {
+  text-align: start;
+}
+
+input[type="date"]::-webkit-date-and-time-value {
+  text-align: start;
+}
+
+.react-datepicker__tab-loop {
+  z-index: 49;
+}
+
+
+@media (min-width: 768px) {
+  #testimonials .slick-slide {
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+
+  /* .cta-list .slick-slide {
+    margin-right: 10px;
+  } */
+  #testimonials .slick-slide {
+    padding: 0.5rem;
+  }
+}
+
+.TabsList {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  column-gap: 1rem;
+  border-bottom: 1px solid var(--mauve-6);
+}
+
+.TabsTrigger {
+  font-family: inherit;
+  background-color: white;
+  padding: 20px 40px;
+  height: 45px;
+  flex: 1;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--grey);
+  user-select: none;
+}
+
+.TabsTrigger:first-child {
+  border-top-left-radius: 6px;
+}
+
+.TabsTrigger:last-child {
+  border-top-right-radius: 6px;
+}
+
+.TabsTrigger:hover {
+  color: var(--darker-indigo);
+}
+
+.TabsTrigger[data-state='active'] {
+  color: var(--darker-indigo);
+  box-shadow: inset 0 -1px 0 0 currentColor, 0 1px 0 0 currentColor;
+}
+
+
+.TabsContent {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: white;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  outline: none;
+}
+
+.selected-flag {
+  display: none;
+}
+
+
+.contact-form #typeOfEnquiry {
+  position: relative;
+  /*-webkit-appearance: none;
+  appearance: none;*/
+}
+
+.contact-form #typeOfEnquiry::after {
+  content: "▼";
+  font-size: 1rem;
+  top: 6px;
+  right: 10px;
+  position: absolute;
+}
+
+.product-slider .slick-list {
+  padding-left: 0px !important;
+  margin-left: -10px !important;
+}
+
+.product-slider .slick-track {
+  display: flex !important;
+}
+
+.product-slider .slick-slide {
+  height: inherit !important;
+}
+
+.product-slider .slick-slide>div {
+  margin: 10px;
+  height: 100%;
+}

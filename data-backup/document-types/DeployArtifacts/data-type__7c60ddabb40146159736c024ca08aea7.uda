@@ -1,0 +1,24 @@
+{
+  "Name": "Promo Nav - Components - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "contentElementTypeKey": "3004e4b4-2412-4607-a1a1-4313e993f8ff",
+        "label": "{{title}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7c60ddabb40146159736c024ca08aea7",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

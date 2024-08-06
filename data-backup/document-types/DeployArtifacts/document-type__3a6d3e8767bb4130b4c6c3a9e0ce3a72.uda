@@ -1,0 +1,43 @@
+{
+  "Name": "Redirect",
+  "Alias": "redirect",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-filter-arrows color-light-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+  "CompositionContentTypes": [
+    "umb://document-type/e28b8c9ec7d04c4ab4e41e829ff149ca"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/3a6d3e8767bb4130b4c6c3a9e0ce3a72",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/e28b8c9ec7d04c4ab4e41e829ff149ca",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,69 @@
+{
+  "Name": "_background Colour Selector [COMP]",
+  "Alias": "backgroundColourCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-paint-roller color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "023a767c-2140-4bc6-8f00-e2281a72b8b3",
+      "Name": "Background Colour",
+      "SortOrder": 499,
+      "Type": 1,
+      "Alias": "backgroundColour",
+      "PropertyTypes": [
+        {
+          "Key": "69f3872d-9a73-4a2d-826c-aa95c352b367",
+          "Alias": "backgroundColour",
+          "DataType": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+          "Description": "* NOTE: If Global Data Source is used, background colour will be picked up from there",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Background Colour",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

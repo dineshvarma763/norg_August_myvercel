@@ -1,0 +1,24 @@
+{
+  "Name": "Special Order - Dropdown",
+  "Alias": null,
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "Top"
+      },
+      {
+        "id": 2,
+        "value": "Bottom"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/0584967254e149cab93143ab0937cc9d",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,82 @@
+{
+  "Name": "Case Study",
+  "Alias": "caseStudy",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-bar-chart color-light-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+    "umb://document-type/f932b1bd134b4cf29785520c4a7714fa"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "946093b4-e6aa-4a61-a8f9-5cdd08955795",
+      "Name": "Case Studies",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "caseStudies",
+      "PropertyTypes": [
+        {
+          "Key": "11259f4a-f222-4d0c-ae94-ccb7077cbf09",
+          "Alias": "caseStudies",
+          "DataType": "umb://data-type/d1131f4b2eb643f1a4ff8ad21da0ae0d",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Case Studies",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/f2d0b7b3b246472a8ff7db7581a16f61",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/d1131f4b2eb643f1a4ff8ad21da0ae0d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

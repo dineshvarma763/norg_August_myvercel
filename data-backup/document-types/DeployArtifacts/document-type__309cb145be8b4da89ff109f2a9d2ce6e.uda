@@ -1,0 +1,101 @@
+{
+  "Name": "Call To Action (CTA) Listing",
+  "Alias": "cTAList",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-pictures-alt-2 color-light-green",
+  "Thumbnail": "folder.png",
+  "Description": "Used to render multiple Call to action links on the page.",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/ec82bb1ff6084647af57dbde850f3994"
+    ]
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+    "umb://document-type/a82b0620daa844aea2f8e84429bfb993",
+    "umb://document-type/ed4bc53321494ed79f5bc74a25763137",
+    "umb://document-type/f932b1bd134b4cf29785520c4a7714fa"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "8131e6e5-3fe7-4fa8-bea8-5e14a0caebe3",
+      "Name": "CTAs",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "ctAs",
+      "PropertyTypes": [
+        {
+          "Key": "7789a3db-4660-4e6f-a6bb-bea60c8878cc",
+          "Alias": "callToActionItems",
+          "DataType": "umb://data-type/f09b2010bc6c4336a980b22833f4f8e7",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Call To Action Items",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/309cb145be8b4da89ff109f2a9d2ce6e",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/f09b2010bc6c4336a980b22833f4f8e7",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a82b0620daa844aea2f8e84429bfb993",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ec82bb1ff6084647af57dbde850f3994",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ed4bc53321494ed79f5bc74a25763137",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

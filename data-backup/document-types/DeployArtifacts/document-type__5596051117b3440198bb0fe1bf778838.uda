@@ -1,0 +1,239 @@
+{
+  "Name": "_hero component [COMP]",
+  "Alias": "heroComponentCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "0cd47327-2e2d-455f-b732-0c878768bcaf",
+      "Name": "Main Hero Fields",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "mainHeroFields",
+      "PropertyTypes": [
+        {
+          "Key": "119c9716-c53f-46ce-8ddc-a833606c6aa7",
+          "Alias": "hideBreadcrumbs",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Hide Breadcrumbs",
+          "SortOrder": 3,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "4071cf1c-7e38-4cb2-87d4-37cc0de464c7",
+          "Alias": "description",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "Text used in some hero variants. This is optional.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Description",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "680c2fc5-0806-4ecb-9da7-178b8f2272e2",
+          "Alias": "lineHeight",
+          "DataType": "umb://data-type/a160183c8d5c488a90f552a145931768",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Line Height",
+          "SortOrder": 6,
+          "Validation": "^[0-9]*$",
+          "ValidationMessage": "Only numeric value allow",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "9e2ae8de-5560-4c5e-b6f1-eff9feb95730",
+          "Alias": "fontWeight",
+          "DataType": "umb://data-type/7b69dbf057e34977a0f67f6d44a16506",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Font Weight",
+          "SortOrder": 5,
+          "Validation": "^[0-9]*$",
+          "ValidationMessage": "Only numeric value allow",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "9f88c8e1-eac2-4ac6-8f89-8e63a0ab3881",
+          "Alias": "image",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": "The background image used by some Hero variants. This is optional.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Image",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "d2579b2a-0162-49e9-b8f7-b840e127f35d",
+          "Alias": "heading",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Heading",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "dbdf905e-f59b-41ca-ad72-bfcd78269629",
+          "Alias": "fontSize",
+          "DataType": "umb://data-type/9a74fc218097435baa98363a3ce0a51d",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Font Size",
+          "SortOrder": 4,
+          "Validation": "^[0-9]*$",
+          "ValidationMessage": "Only numeric value allow",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "c3229bce-13c7-4a0a-8cb1-da51087615ef",
+      "Name": "Hero Buttons",
+      "SortOrder": 2,
+      "Type": 1,
+      "Alias": "heroButtons",
+      "PropertyTypes": [
+        {
+          "Key": "cb234488-b467-403b-b8c9-c50164fb3b70",
+          "Alias": "heroButtonUrls",
+          "DataType": "umb://data-type/ae27e5511f734a7490b5ee748cac3277",
+          "Description": "Buttons used in some hero variants. This is optional.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Buttons",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5596051117b3440198bb0fe1bf778838",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/7b69dbf057e34977a0f67f6d44a16506",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/9a74fc218097435baa98363a3ce0a51d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/a160183c8d5c488a90f552a145931768",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ae27e5511f734a7490b5ee748cac3277",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

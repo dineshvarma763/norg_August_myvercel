@@ -1,0 +1,69 @@
+{
+  "Name": "Three Image Section",
+  "Alias": "threeImageSection",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-pictures-alt-2 color-orange",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/fc436ab4881148b7bae0b31cb318aa37",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "c8129490-e04b-425f-a016-bf734b943153",
+      "Name": "Content",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "content",
+      "PropertyTypes": [
+        {
+          "Key": "9b40c685-2adf-4a55-9bd1-a74bdd548f0a",
+          "Alias": "threeImageSection",
+          "DataType": "umb://data-type/aca7795dd3c94da689c5c668db6aff12",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Three Image Section",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/f9ad45aa25a84f1cb26ad074defc1242",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/aca7795dd3c94da689c5c668db6aff12",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/fc436ab4881148b7bae0b31cb318aa37",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

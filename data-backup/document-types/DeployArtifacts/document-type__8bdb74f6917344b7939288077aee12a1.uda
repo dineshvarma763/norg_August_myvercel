@@ -1,0 +1,125 @@
+{
+  "Name": "Product Page",
+  "Alias": "productPage",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-wall-plug color-brown",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/9476c524d8fa472eb5d04369dda894c5"
+    ]
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/455d71dd9a4040f6bc12f56710755a08",
+    "umb://document-type/4c285d6a60f842d0b40838964de11418",
+    "umb://document-type/8ac0701a1c654d2eb02ee129d54f7489",
+    "umb://document-type/e28b8c9ec7d04c4ab4e41e829ff149ca",
+    "umb://document-type/e4c1c06a5e054127a2b63d84413f0f41"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "77821e9d-0aca-4cf4-981a-fc4efa1cd918",
+      "Name": "Advanced Specification Table",
+      "SortOrder": 2001,
+      "Type": 1,
+      "Alias": "advancedSpecificationTable",
+      "PropertyTypes": [
+        {
+          "Key": "339ff9b0-49c0-4c9e-b7bc-2ac04e1c6b41",
+          "Alias": "rows",
+          "DataType": "umb://data-type/7dbddbbe93c149b1a36715e341e53ea6",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Advanced Specifications",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "b21885c5-3ef7-4840-82ff-9a28af4ebd98",
+          "Alias": "turnOnAdvancedProductSpecificationTable",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Turn on advanced product specification table",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/8bdb74f6917344b7939288077aee12a1",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/7dbddbbe93c149b1a36715e341e53ea6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/455d71dd9a4040f6bc12f56710755a08",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/4c285d6a60f842d0b40838964de11418",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8ac0701a1c654d2eb02ee129d54f7489",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9476c524d8fa472eb5d04369dda894c5",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e28b8c9ec7d04c4ab4e41e829ff149ca",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e4c1c06a5e054127a2b63d84413f0f41",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

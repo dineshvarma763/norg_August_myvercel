@@ -1,0 +1,14 @@
+{
+  "Name": "_testimonial component [COMP] - Author Name - Textbox",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TextBox",
+  "DatabaseType": 1,
+  "Configuration": {
+    "maxChars": 30
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/52f0dd5b2f4b48d585d134902d4335e5",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

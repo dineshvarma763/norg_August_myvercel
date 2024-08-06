@@ -1,0 +1,260 @@
+{
+  "Name": "Data Folder",
+  "Alias": "dataFolder",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-layers color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": true,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/9476c524d8fa472eb5d04369dda894c5",
+      "umb://document-type/13e186c5070a45eeb44771f37490053f",
+      "umb://document-type/309cb145be8b4da89ff109f2a9d2ce6e",
+      "umb://document-type/ffce041db895428080aa7fa6fffe9086",
+      "umb://document-type/7aa68181d4164e2f992baaaebdb6f752",
+      "umb://document-type/3c5ae913399a41ff9d037dc3110bc0ea",
+      "umb://document-type/7ce91db356dd466aaf91fc433e0db779",
+      "umb://document-type/cc90fc6627eb46f18ef5bb402eb60b64",
+      "umb://document-type/3dcc5e320bb24776aa33190f647393cd",
+      "umb://document-type/aaabab2c197343909510969b74eebfff",
+      "umb://document-type/97976a0d6d63488faeb4bd8b0bc4c76b",
+      "umb://document-type/b3d7a44836994a8aa7a0327718697e39",
+      "umb://document-type/10a59e761c004763b429105dbead5317",
+      "umb://document-type/7c2d3b37b291453cb837c341f437f5e2",
+      "umb://document-type/24f693e9aadb4ffc9a9d576c60e23a09",
+      "umb://document-type/96c8f98fb58144ecac30098ac9f9d274",
+      "umb://document-type/8abb6a3fa0504132977c2cee4510850a",
+      "umb://document-type/3bbd73bbe4dd41b0be5c465a83ebce01",
+      "umb://document-type/1cbe5fb9e85b4febb411adcbcc16d8b2",
+      "umb://document-type/37f0d5e3416b4b36b8fe71e53701381f",
+      "umb://document-type/0628edfd4e5644a8815aa9e66b2f274e",
+      "umb://document-type/71c10dc0b30545dd99e5d06e037621f9",
+      "umb://document-type/e6456ca245d54c8ea1c7b35f9c04d042",
+      "umb://document-type/3ee14bf0a4064900a752dcc8e37c4830",
+      "umb://document-type/419d5f25efbb4e62ad0f7eb1aecfdd96",
+      "umb://document-type/f2d0b7b3b246472a8ff7db7581a16f61",
+      "umb://document-type/0ede180dcec9441d9df896bb6c529c19",
+      "umb://document-type/a0f43ce9ba1c491eadb65887b55617df",
+      "umb://document-type/e0a779db8e7147069a4925bfffce3890",
+      "umb://document-type/9cd9688c61f543f6965366e68247138e",
+      "umb://document-type/ec82bb1ff6084647af57dbde850f3994",
+      "umb://document-type/af0681cfd58648f2b360b63a3b25ad26",
+      "umb://document-type/9940fbf9b02d480684cc31c020240ced",
+      "umb://document-type/8042f68cd3a64729aa2e943e4eaff4ec",
+      "umb://document-type/b46a59e6074d46e3b8c4910e84771e93",
+      "umb://document-type/833afe0a6ea64f59a2295fc59f3d247a",
+      "umb://document-type/a4c5a1259ba64a7d918f8f269dde1343",
+      "umb://document-type/8adc7cebedbc4bd6aae3b4ef1cf88231"
+    ]
+  },
+  "Parent": null,
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9476c524d8fa472eb5d04369dda894c5",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/0628edfd4e5644a8815aa9e66b2f274e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/0ede180dcec9441d9df896bb6c529c19",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/10a59e761c004763b429105dbead5317",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/13e186c5070a45eeb44771f37490053f",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/1cbe5fb9e85b4febb411adcbcc16d8b2",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/24f693e9aadb4ffc9a9d576c60e23a09",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/309cb145be8b4da89ff109f2a9d2ce6e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/37f0d5e3416b4b36b8fe71e53701381f",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/3bbd73bbe4dd41b0be5c465a83ebce01",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/3c5ae913399a41ff9d037dc3110bc0ea",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/3dcc5e320bb24776aa33190f647393cd",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/3ee14bf0a4064900a752dcc8e37c4830",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/419d5f25efbb4e62ad0f7eb1aecfdd96",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/71c10dc0b30545dd99e5d06e037621f9",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7aa68181d4164e2f992baaaebdb6f752",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7c2d3b37b291453cb837c341f437f5e2",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/7ce91db356dd466aaf91fc433e0db779",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8042f68cd3a64729aa2e943e4eaff4ec",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/833afe0a6ea64f59a2295fc59f3d247a",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8abb6a3fa0504132977c2cee4510850a",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8adc7cebedbc4bd6aae3b4ef1cf88231",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9476c524d8fa472eb5d04369dda894c5",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/96c8f98fb58144ecac30098ac9f9d274",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/97976a0d6d63488faeb4bd8b0bc4c76b",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9940fbf9b02d480684cc31c020240ced",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9cd9688c61f543f6965366e68247138e",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a0f43ce9ba1c491eadb65887b55617df",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a4c5a1259ba64a7d918f8f269dde1343",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/aaabab2c197343909510969b74eebfff",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/af0681cfd58648f2b360b63a3b25ad26",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b3d7a44836994a8aa7a0327718697e39",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/b46a59e6074d46e3b8c4910e84771e93",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/cc90fc6627eb46f18ef5bb402eb60b64",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e0a779db8e7147069a4925bfffce3890",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e6456ca245d54c8ea1c7b35f9c04d042",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ec82bb1ff6084647af57dbde850f3994",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f2d0b7b3b246472a8ff7db7581a16f61",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/ffce041db895428080aa7fa6fffe9086",
+      "Ordering": false,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

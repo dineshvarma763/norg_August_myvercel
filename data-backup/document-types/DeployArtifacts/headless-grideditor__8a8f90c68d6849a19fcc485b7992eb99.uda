@@ -1,0 +1,11 @@
+{
+  "Name": "Headline H4",
+  "Alias": "headline-h4",
+  "Icon": "icon-coin color-black",
+  "Javascript": "export default class extends HTMLElement {\n  #textarea\n  #template = `<textarea\n    rows=\"1\"\n    placeholder=\"Write here...\"\n    class=\"textstring input-block-level\"\n    style=\"font-size: 36px; line-height: 45px; font-weight: bold\"></textarea>`\n\n  constructor() {\n    super()\n\n    this.innerHTML = this.#template\n    this.#textarea = this.querySelector('textarea')\n  }\n\n  click() {\n    this.#textarea.focus()\n  }\n\n  get value() { return this.#textarea.value }\n  set value(value) {\n    this.#textarea.value = value || ''\n  }\n}",
+  "Schema": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"type\": \"string\"\n}\n",
+  "Udi": "umb://headless-grideditor/8a8f90c68d6849a19fcc485b7992eb99",
+  "Dependencies": [],
+  "__type": "Umbraco.Cloud.Headless,Umbraco.Cloud.Headless.Deploy.HeadlessGridEditorArtifact",
+  "__version": "4.7.4"
+}

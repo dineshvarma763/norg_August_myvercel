@@ -1,0 +1,24 @@
+{
+  "Name": "Page Layout - Dropdown",
+  "Alias": null,
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "Full Width (Default)"
+      },
+      {
+        "id": 2,
+        "value": "Two Column - 2/3 - 1/3"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c681f37b82a74334913114bcb2f8f811",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

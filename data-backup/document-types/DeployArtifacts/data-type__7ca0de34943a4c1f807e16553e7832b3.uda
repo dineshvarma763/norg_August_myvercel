@@ -1,0 +1,76 @@
+{
+  "Name": "_cta component [COMP] - Background Colour - Color Picker",
+  "Alias": null,
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "{\"value\":\"ffffff\",\"label\":\"ffffff\"}"
+      },
+      {
+        "id": 2,
+        "value": "{\"value\":\"f6f6f6\",\"label\":\"f6f6f6\"}"
+      },
+      {
+        "id": 11,
+        "value": "{\"value\":\"f4f3f3\",\"label\":\"f4f3f3\"}"
+      },
+      {
+        "id": 10,
+        "value": "{\"value\":\"f3f6f4\",\"label\":\"f3f6f4\"}"
+      },
+      {
+        "id": 3,
+        "value": "{\"value\":\"d1d3d4\",\"label\":\"d1d3d4\"}"
+      },
+      {
+        "id": 5,
+        "value": "{\"value\":\"fed095\",\"label\":\"fed095\"}"
+      },
+      {
+        "id": 13,
+        "value": "{\"value\":\"1d7841\",\"label\":\"1d7841\"}"
+      },
+      {
+        "id": 15,
+        "value": "{\"value\":\"0092ff\",\"label\":\"0092ff\"}"
+      },
+      {
+        "id": 14,
+        "value": "{\"value\":\"9479fa\",\"label\":\"9479fa\"}"
+      },
+      {
+        "id": 8,
+        "value": "{\"value\":\"5850ec\",\"label\":\"5850ec\"}"
+      },
+      {
+        "id": 7,
+        "value": "{\"value\":\"395ad1\",\"label\":\"395ad1\"}"
+      },
+      {
+        "id": 6,
+        "value": "{\"value\":\"9328e2\",\"label\":\"9328e2\"}"
+      },
+      {
+        "id": 9,
+        "value": "{\"value\":\"1f2a37\",\"label\":\"1f2a37\"}"
+      },
+      {
+        "id": 12,
+        "value": "{\"value\":\"111928\",\"label\":\"111928\"}"
+      },
+      {
+        "id": 4,
+        "value": "{\"value\":\"000000\",\"label\":\"000000\"}"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

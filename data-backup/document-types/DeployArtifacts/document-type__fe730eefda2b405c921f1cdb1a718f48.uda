@@ -1,0 +1,69 @@
+{
+  "Name": "Row",
+  "Alias": "productSpecificationTableRow",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-app color-amber",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/53acb99fc52a41318563764ab79f9b0a",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "3c772408-c05c-4727-9ff0-003743d019ac",
+      "Name": "Values",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "values",
+      "PropertyTypes": [
+        {
+          "Key": "330830c2-8790-4579-98b4-9122294ae847",
+          "Alias": "values",
+          "DataType": "umb://data-type/05120596386d4ce297f5fef4251c1d78",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Column Values",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/fe730eefda2b405c921f1cdb1a718f48",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/05120596386d4ce297f5fef4251c1d78",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/53acb99fc52a41318563764ab79f9b0a",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

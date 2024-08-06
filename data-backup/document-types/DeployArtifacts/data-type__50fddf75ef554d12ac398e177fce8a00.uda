@@ -1,0 +1,12 @@
+{
+  "Name": "_case Study Block - Author Name - Textbox",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TextBox",
+  "DatabaseType": 1,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/50fddf75ef554d12ac398e177fce8a00",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,11 @@
+{
+  "Name": "Horizonal Rule",
+  "Alias": "horizonal-rule",
+  "Icon": "icon-inactive-line color-orange",
+  "Javascript": "export default class extends HTMLElement {\n  #hr\n  #template = `<hr style=\"font-size: 36px; line-height: 45px; font-weight: bold\" class=\"border my-4 border-my-yellow\" />`\n\n  constructor() {\n    super()\n\n    this.innerHTML = this.#template\n    this.#hr = this.querySelector('hr')\n\n    this.addEventListener('click', this.#onClick.bind(this));\n  }\n\n  #onClick() {\n    const range = document.createRange();\n    range.selectNodeContents(this.#hr);\n    const selection = window.getSelection();\n    selection.removeAllRanges();\n    selection.addRange(range);\n  }\n}",
+  "Schema": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"type\": \"string\"\n}\n",
+  "Udi": "umb://headless-grideditor/86e374cce4234aba97bf73d770c74bda",
+  "Dependencies": [],
+  "__type": "Umbraco.Cloud.Headless,Umbraco.Cloud.Headless.Deploy.HeadlessGridEditorArtifact",
+  "__version": "4.7.4"
+}

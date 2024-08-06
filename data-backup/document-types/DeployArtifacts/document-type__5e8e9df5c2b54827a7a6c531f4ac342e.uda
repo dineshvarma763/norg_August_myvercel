@@ -1,0 +1,69 @@
+{
+  "Name": "Advanced Specification Table Entry",
+  "Alias": "advancedSpecificationTableEntry",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-app color-amber",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/53acb99fc52a41318563764ab79f9b0a",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "eb79a410-38d9-4715-8e6f-3fb608665502",
+      "Name": "Specification Row",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "specificationRow",
+      "PropertyTypes": [
+        {
+          "Key": "c8bc84d0-1740-40fb-afd4-83597e3342eb",
+          "Alias": "rows",
+          "DataType": "umb://data-type/7dbddbbe93c149b1a36715e341e53ea6",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Rows",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5e8e9df5c2b54827a7a6c531f4ac342e",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/7dbddbbe93c149b1a36715e341e53ea6",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/53acb99fc52a41318563764ab79f9b0a",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,26 @@
+{
+  "Name": "Row - Columns - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "backgroundColor": "#9fc5e8",
+        "iconColor": "#2986cc",
+        "contentElementTypeKey": "f7fc874b-f155-4d0a-9877-b570f7d4161e",
+        "label": "Column  {{$index}} - {{value}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/05120596386d4ce297f5fef4251c1d78",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

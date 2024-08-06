@@ -1,0 +1,69 @@
+{
+  "Name": "_global picker component [COMP]",
+  "Alias": "globalPickerComponentCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": "This is used to redirect component data so that it reads from a global component. This allows component data re-use from a central source when a single components data is used in multiple places.",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "448b6839-72e2-434c-ac34-6e9e16f56f22",
+      "Name": "Global Data Source",
+      "SortOrder": 500,
+      "Type": 1,
+      "Alias": "globalDataSource",
+      "PropertyTypes": [
+        {
+          "Key": "f51a192c-b409-4daa-9ce1-5483435adf43",
+          "Alias": "datasource",
+          "DataType": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+          "Description": "This field supports re-usable data across multiple pages.  https://www.youtube.com/watch?v=Pyurd1R0uHE   from 10min 20 seconds for an overview of usage.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Datasource",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/a82b0620daa844aea2f8e84429bfb993",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/fd1e0da556064862b6795d0cf3a52a59",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

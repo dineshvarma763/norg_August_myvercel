@@ -1,0 +1,111 @@
+{
+  "Name": "Pricing Section",
+  "Alias": "pricingSection",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-item-arrangement",
+  "Thumbnail": "folder.png",
+  "Description": "Fetch data using pricing API from Norg API site",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+    "umb://document-type/c7a950b318f7420b887e9d2512633b6a",
+    "umb://document-type/f932b1bd134b4cf29785520c4a7714fa"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "99d93702-2f8b-4f9e-a2cf-4f871780da23",
+      "Name": "Pricing Section",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "pricingSection",
+      "PropertyTypes": [
+        {
+          "Key": "450f7272-a911-4bd9-b22c-5b52625a6b73",
+          "Alias": "apiToken",
+          "DataType": "umb://data-type/35d5ee352daa41948aec5f96cdaf5848",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "API Token",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "891db665-f534-43d2-8741-101c97eedb6c",
+          "Alias": "apiURL",
+          "DataType": "umb://data-type/79acc7e1971b4113a6576f74c1468906",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "API URL",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/b46a59e6074d46e3b8c4910e84771e93",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/35d5ee352daa41948aec5f96cdaf5848",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/79acc7e1971b4113a6576f74c1468906",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/c7a950b318f7420b887e9d2512633b6a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

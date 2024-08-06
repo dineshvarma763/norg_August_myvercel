@@ -1,0 +1,32 @@
+{
+  "Name": "CTA Block - Background Colour x 2",
+  "Alias": null,
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "{\"value\":\"faa634\",\"label\":\"000000\"}"
+      },
+      {
+        "id": 2,
+        "value": "{\"value\":\"3d3d3e\",\"label\":\"3d3d3e\"}"
+      },
+      {
+        "id": 3,
+        "value": "{\"value\":\"ffffff\",\"label\":\"ffffff\"}"
+      },
+      {
+        "id": 4,
+        "value": "{\"value\":\"1f2a37\",\"label\":\"1f2a37\"}"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/af75b4d7d68a4af08e45c4a6840f4257",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

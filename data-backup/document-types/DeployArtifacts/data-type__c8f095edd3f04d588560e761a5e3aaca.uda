@@ -1,0 +1,32 @@
+{
+  "Name": "Product Page - Key Features",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "backgroundColor": "#9fc5e8",
+        "iconColor": "#20124d",
+        "contentElementTypeKey": "c4283a2a-d976-48af-b5a0-6991c966768e",
+        "label": "{{heading}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      },
+      {
+        "contentElementTypeKey": "55bcb8c9-5250-4b97-a4ee-a77e76b33e9a",
+        "label": "Open To Edit - Two Columns",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": true,
+    "useInlineEditingAsDefault": true
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c8f095edd3f04d588560e761a5e3aaca",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

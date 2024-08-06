@@ -1,0 +1,87 @@
+{
+  "Name": "_background Gradiant Selector [COMP]",
+  "Alias": "backgroundGradiantCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-paint-roller color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "c5514945-d048-46c2-ab24-d4332888fd4e",
+      "Name": "Background Gradiant",
+      "SortOrder": 499,
+      "Type": 1,
+      "Alias": "backgroundGradiant",
+      "PropertyTypes": [
+        {
+          "Key": "21870d20-efa4-4451-827d-2b4d72d8c4cc",
+          "Alias": "backgroundGradiantColour2",
+          "DataType": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Background Gradiant Colour 2",
+          "SortOrder": 501,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "f0e6437d-5649-4981-89f3-923c552ed1cf",
+          "Alias": "backgroundGradiantColour1",
+          "DataType": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+          "Description": "",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Background Gradiant Colour 1",
+          "SortOrder": 500,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/c7a950b318f7420b887e9d2512633b6a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/7ca0de34943a4c1f807e16553e7832b3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,20 @@
+{
+  "Name": "Multinode Treepicker",
+  "Alias": null,
+  "EditorAlias": "Umbraco.MultiNodeTreePicker",
+  "DatabaseType": 0,
+  "Configuration": {
+    "startNode": {
+      "type": "content"
+    },
+    "minNumber": 0,
+    "maxNumber": 5,
+    "showOpenButton": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/56685c506e5244109d319fa00b15b7fe",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

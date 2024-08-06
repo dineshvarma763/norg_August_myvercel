@@ -1,0 +1,69 @@
+{
+  "Name": "Google Map [COMP]",
+  "Alias": "googleMapCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-map-location color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "0fb7c508-1c08-480e-93a7-080ff883a2ca",
+      "Name": "Google Map Settings",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "googleMapSettings",
+      "PropertyTypes": [
+        {
+          "Key": "66889f8c-f18a-4de1-a2b8-8394aedd9a68",
+          "Alias": "iframeCode",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": "Enter Google Maps Iframe code here",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Iframe Code",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/8044ce61ad6a44a0bbafb907d6f2c820",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,63 @@
+{
+  "Name": "Homepage",
+  "Alias": "homepage",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-home color-black",
+  "Thumbnail": "folder.png",
+  "Description": "Homepage",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": true,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/9476c524d8fa472eb5d04369dda894c5",
+      "umb://document-type/8878331480a048f9aafeb3b1361a30ab",
+      "umb://document-type/8bdb74f6917344b7939288077aee12a1"
+    ]
+  },
+  "Parent": null,
+  "CompositionContentTypes": [
+    "umb://document-type/8ac0701a1c654d2eb02ee129d54f7489",
+    "umb://document-type/e4c1c06a5e054127a2b63d84413f0f41"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/fed5cf3881e54d058e75f01e5c952453",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/8878331480a048f9aafeb3b1361a30ab",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8ac0701a1c654d2eb02ee129d54f7489",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/8bdb74f6917344b7939288077aee12a1",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9476c524d8fa472eb5d04369dda894c5",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/e4c1c06a5e054127a2b63d84413f0f41",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

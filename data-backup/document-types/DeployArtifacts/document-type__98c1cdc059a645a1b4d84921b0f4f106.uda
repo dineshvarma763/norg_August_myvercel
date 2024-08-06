@@ -1,0 +1,205 @@
+{
+  "Name": "_base component [COMP]",
+  "Alias": "baseComponentCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "bbdb62bd-9afa-4c86-9ae4-ad4fa46b725b",
+      "Name": "Component Settings",
+      "SortOrder": 1000,
+      "Type": 1,
+      "Alias": "componentSettings",
+      "PropertyTypes": []
+    },
+    {
+      "Key": "ce919202-c22e-4dfe-9af5-6f59181302bc",
+      "Name": "Component Metadata",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "componentSettings/componentMetadata",
+      "PropertyTypes": [
+        {
+          "Key": "07714f12-5534-4861-b799-43a6df4cb6eb",
+          "Alias": "selectableVariant",
+          "DataType": "umb://data-type/7eec480b073f4cf6bb1700e444caeb05",
+          "Description": "Adjust which component variation is show on the page.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "selectable variant",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "44d3354e-7c29-4b14-bce8-899962d8f2b1",
+          "Alias": "bottomRounded",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Bottom Rounded",
+          "SortOrder": 6,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "4b9d5f94-76b1-44d4-bd8a-9315171911ff",
+          "Alias": "maxItemsPerRow",
+          "DataType": "umb://data-type/2e6d3631066e44b8aec496f09099b2b5",
+          "Description": "it specifies the maximum number of items displayed horizontally in each row of a grid layout.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "MaxItemsPerRow",
+          "SortOrder": 3,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "64b22f02-9537-4893-8c6c-2df5b54faf79",
+          "Alias": "order",
+          "DataType": "umb://data-type/0584967254e149cab93143ab0937cc9d",
+          "Description": "This is used on pages that have a set content body in place (such as Product Page).  This field instructs the component to be put above or below the fixed body.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Order",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "c096dde6-c603-4e1c-ac4d-35937866bba9",
+          "Alias": "colReverse",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": "This option allows you to control the display order of columns in the grid",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "ColReverse",
+          "SortOrder": 4,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "d72cab59-0851-44d0-878e-c0503c497ef7",
+          "Alias": "align",
+          "DataType": "umb://data-type/90ba4879f1c4491e92da8b73b62172a1",
+          "Description": "Controls text alignment on those components that can support alignment shift",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Align",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "eb84de4c-4174-4bf3-9c76-505cae18541c",
+          "Alias": "topRounded",
+          "DataType": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Top Rounded",
+          "SortOrder": 5,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0584967254e149cab93143ab0937cc9d",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/2e6d3631066e44b8aec496f09099b2b5",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/7eec480b073f4cf6bb1700e444caeb05",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/90ba4879f1c4491e92da8b73b62172a1",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/92897bc6a5f34ffeae27f2e7e33dda49",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,12 @@
+{
+  "Name": "_hero component [COMP] - Line Height - Textbox",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TextBox",
+  "DatabaseType": 1,
+  "Configuration": {},
+  "Parent": null,
+  "Udi": "umb://data-type/a160183c8d5c488a90f552a145931768",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

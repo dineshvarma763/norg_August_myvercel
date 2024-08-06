@@ -1,0 +1,67 @@
+{
+  "Name": "Global Settings",
+  "Alias": "globalSettings",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-tools color-grey",
+  "Thumbnail": "folder.png",
+  "Description": "Contains settings that are used across all sites",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": true,
+    "IsElementType": false,
+    "AllowedChildContentTypes": [
+      "umb://document-type/5e57a99ae9b743d9ae161e97f23c0adb",
+      "umb://document-type/a992c077c691465cb25227ef74d4ee69",
+      "umb://document-type/3ee14bf0a4064900a752dcc8e37c4830",
+      "umb://document-type/9878d2d8c129413a8d37b44cfe27479f",
+      "umb://document-type/71c10dc0b30545dd99e5d06e037621f9"
+    ]
+  },
+  "Parent": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7d32578ed9b640ef8d8527233fe7c00a",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/3ee14bf0a4064900a752dcc8e37c4830",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/5e57a99ae9b743d9ae161e97f23c0adb",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/71c10dc0b30545dd99e5d06e037621f9",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/9878d2d8c129413a8d37b44cfe27479f",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a992c077c691465cb25227ef74d4ee69",
+      "Ordering": false,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

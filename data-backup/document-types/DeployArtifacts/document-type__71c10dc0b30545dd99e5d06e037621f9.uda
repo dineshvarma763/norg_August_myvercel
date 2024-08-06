@@ -1,0 +1,49 @@
+{
+  "Name": "Google Maps",
+  "Alias": "googleMaps",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-map-location color-light-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+  "CompositionContentTypes": [
+    "umb://document-type/8044ce61ad6a44a0bbafb907d6f2c820",
+    "umb://document-type/a82b0620daa844aea2f8e84429bfb993"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/71c10dc0b30545dd99e5d06e037621f9",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/8044ce61ad6a44a0bbafb907d6f2c820",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a82b0620daa844aea2f8e84429bfb993",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

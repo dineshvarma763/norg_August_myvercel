@@ -1,0 +1,25 @@
+{
+  "Name": "Advanced Specification Table Entry - Rows - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "iconColor": "#38761d",
+        "contentElementTypeKey": "fe730eef-da2b-405c-921f-1cdb1a718f48",
+        "label": "Row {{$index}}",
+        "editorSize": "medium",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7dbddbbe93c149b1a36715e341e53ea6",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

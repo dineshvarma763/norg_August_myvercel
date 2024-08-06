@@ -1,0 +1,17 @@
+body .breadcrumbs > ul > li + *:before,
+body .breadcrumbs > ol > li + *:before {
+  content: "";
+  display: none;
+}
+
+body .breadcrumbs > ul > li > span,
+body .breadcrumbs > ol > li > span {
+  margin-left: 0.5rem;
+  margin-right: 0.75rem;
+  opacity: 0.5;
+}
+
+body .breadcrumbs > ul > li:last-child > span,
+body .breadcrumbs > ol > li:last-child > span {
+  display: none;
+}

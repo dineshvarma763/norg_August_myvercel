@@ -1,0 +1,69 @@
+{
+  "Name": "Snippet [COMP]",
+  "Alias": "snippetCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": "The snippet is design to hold blocks of code or TXT for use in particular locations.",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "c2b08f1c-8bf4-4e5b-9dc8-9f06c615b39f",
+      "Name": "Snippet Group",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "snippetGroup",
+      "PropertyTypes": [
+        {
+          "Key": "14e88d79-669a-4955-a348-e1522b376c22",
+          "Alias": "snippetCode",
+          "DataType": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Snippet Code",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/030fff97ec29446ab734b266d5776512",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/c6bac0dd4ab945b18e30e4b619ee5da3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

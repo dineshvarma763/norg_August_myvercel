@@ -1,0 +1,94 @@
+{
+  "Name": "Specification Table",
+  "Alias": "specificationTable",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-item-arrangement",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type/f5416fc4e3004b82bcc66ce923309af9",
+  "CompositionContentTypes": [
+    "umb://document-type/f5416fc4e3004b82bcc66ce923309af9"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "faafd925-446d-4039-9431-f209ba6c90d9",
+      "Name": "Specification Rows",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "specificationRows",
+      "PropertyTypes": [
+        {
+          "Key": "0d3b2896-a292-4ea8-b0be-b1ad94947bfb",
+          "Alias": "list",
+          "DataType": "umb://data-type/ce12c5f8b8764f279029e7b9a8534e61",
+          "Description": "This field is redundant, it may be removed shortly",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "List",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "16ac6a58-9deb-4a2f-8e9e-43a8b2087a6f",
+          "Alias": "specifications",
+          "DataType": "umb://data-type/971204f49c3d4cf18bde84ea86660db4",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Specifications",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/aaabab2c197343909510969b74eebfff",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/971204f49c3d4cf18bde84ea86660db4",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ce12c5f8b8764f279029e7b9a8534e61",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f5416fc4e3004b82bcc66ce923309af9",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

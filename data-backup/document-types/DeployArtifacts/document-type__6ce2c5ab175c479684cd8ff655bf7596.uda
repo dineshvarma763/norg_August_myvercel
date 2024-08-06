@@ -1,0 +1,187 @@
+{
+  "Name": "_product details component [COMP]",
+  "Alias": "productDetailsComponentCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-science",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "6968bba5-b8a1-4eb3-8c8f-eb034a333933",
+      "Name": "CTA",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "ctA",
+      "PropertyTypes": [
+        {
+          "Key": "46d8b36f-858c-448d-841a-566a34a49ef5",
+          "Alias": "productCTAList",
+          "DataType": "umb://data-type/f09b2010bc6c4336a980b22833f4f8e7",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "CTA List",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "7f7737cc-0436-4fc7-9209-13b9efac51d1",
+      "Name": "Product Details Section",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "productDetailsSection",
+      "PropertyTypes": []
+    },
+    {
+      "Key": "9102916a-c872-46ba-997b-b2dea4b36008",
+      "Name": "Basic Details",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "productDetailsSection/basicDetails",
+      "PropertyTypes": [
+        {
+          "Key": "11229042-af3b-4fe0-9b92-a40d31177d49",
+          "Alias": "productDescription",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Description",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "7c9b10a3-ad68-4c60-a719-384fc0bfcd53",
+          "Alias": "productImage",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Image",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "ce46aa95-7bf5-470f-8399-514cc019adbe",
+          "Alias": "productTitle",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Title",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "cb5fdaad-14ab-4fc6-981e-4d49342152fa",
+      "Name": "Hero Buttons",
+      "SortOrder": 2,
+      "Type": 1,
+      "Alias": "heroButtons",
+      "PropertyTypes": [
+        {
+          "Key": "071f4345-8919-4e38-bba6-e2cf6d2f64a6",
+          "Alias": "productButtons",
+          "DataType": "umb://data-type/ae27e5511f734a7490b5ee748cac3277",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Buttons",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/6ce2c5ab175c479684cd8ff655bf7596",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ae27e5511f734a7490b5ee748cac3277",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/f09b2010bc6c4336a980b22833f4f8e7",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

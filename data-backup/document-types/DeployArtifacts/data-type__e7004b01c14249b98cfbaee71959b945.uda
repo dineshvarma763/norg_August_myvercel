@@ -1,0 +1,20 @@
+{
+  "Name": "CTA Block - ImageDropShadow - Color Picker",
+  "Alias": null,
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "{\"value\":\"5850ec\",\"label\":\"5850ec\"}"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/e7004b01c14249b98cfbaee71959b945",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

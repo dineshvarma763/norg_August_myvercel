@@ -1,0 +1,15 @@
+{
+  "Name": "Product - Product Key Features - Repeatable textstrings",
+  "Alias": null,
+  "EditorAlias": "Umbraco.MultipleTextstring",
+  "DatabaseType": 0,
+  "Configuration": {
+    "Minimum": 1,
+    "Maximum": 20
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/945b38a82f8d48a4af165a5e62c16f4d",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

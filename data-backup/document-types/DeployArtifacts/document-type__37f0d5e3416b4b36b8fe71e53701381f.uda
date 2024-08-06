@@ -1,0 +1,99 @@
+{
+  "Name": "Site Search",
+  "Alias": "siteSearch",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-search color-cyan",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "2d3a5e3c-0a3d-4e97-958d-363faf6e91b3",
+      "Name": "Search",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "search",
+      "PropertyTypes": [
+        {
+          "Key": "1e64839b-10c0-4aa0-a83b-7cba5409a2a3",
+          "Alias": "searchTerms",
+          "DataType": "umb://data-type/c1a31aac339a48079326ce9079b0667a",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Search Terms",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "464d461e-ea25-4cb9-a646-293e1087e3a5",
+          "Alias": "shouldBoostNameMatch",
+          "DataType": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Should Boost Name Match",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/37f0d5e3416b4b36b8fe71e53701381f",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/c1a31aac339a48079326ce9079b0667a",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/98c1cdc059a645a1b4d84921b0f4f106",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

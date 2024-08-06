@@ -1,0 +1,11 @@
+{
+  "Name": "Links list",
+  "Alias": "links-list",
+  "Icon": "icon-brackets",
+  "Javascript": "export default class extends HTMLElement {\n  #input\n  #template = `\n  <style>\n    :host {\n      display: block;\n      margin: 10px;\n    }\n    input {\n      box-sizing: border-box;\n      width: 100%;\n    }\n  </style>\n  <p>Enter a value: <input type=\"text\"></p>`\n\n  constructor() {\n    super()\n\n    this.attachShadow({mode: 'open'}).innerHTML = this.#template\n    this.#input = this.shadowRoot.querySelector('input')\n  }\n\n  // focus when the element is clicked\n  click() {\n    this.#input.focus()\n  }\n\n  get value() { return this.#input.value }\n  set value(value) { this.#input.value = value || '' }\n}",
+  "Schema": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"type\": \"string\"\n}\n",
+  "Udi": "umb://headless-grideditor/1d5f1a295b6c4ef7b727656c608b74c5",
+  "Dependencies": [],
+  "__type": "Umbraco.Cloud.Headless,Umbraco.Cloud.Headless.Deploy.HeadlessGridEditorArtifact",
+  "__version": "4.7.4"
+}

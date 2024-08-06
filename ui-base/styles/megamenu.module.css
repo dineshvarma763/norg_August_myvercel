@@ -1,0 +1,23 @@
+li.show-nav-children .outer {
+  display: inline;
+}
+
+li.hide-nav-children .outer {
+    display: none;
+}
+
+.outer .show-nav-children .level2  {
+    display: inline;
+}
+
+.outer .hide-nav-children .level2 {
+    display: none;
+} 
+
+/* li.show-nav-children {
+    display: inline;
+  }
+  
+  li.hide-nav-children {
+      display: none;
+  } */

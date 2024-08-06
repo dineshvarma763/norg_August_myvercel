@@ -1,0 +1,69 @@
+{
+  "Name": "_page Section text component List [COMP]",
+  "Alias": "pageSectionTextComponentListCOMP",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-defrag color-black",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "9e2b0fa6-8224-4910-9fcb-f44b80f81fca",
+      "Name": "Page Section Listing",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "pageSectionListing",
+      "PropertyTypes": [
+        {
+          "Key": "bc7596cc-a4f0-4b18-abd4-92be0bc094df",
+          "Alias": "pageSectionListing",
+          "DataType": "umb://data-type/aa8de6105a6149729080e514cf833ea2",
+          "Description": "Used to build anchors links to sections on a page. This is optional.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Page Sections Listing",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/5661de396bc741bdad56c10352200e8e",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/aa8de6105a6149729080e514cf833ea2",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/55302b4e55a84fbd83fcc5c75a61ac80",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

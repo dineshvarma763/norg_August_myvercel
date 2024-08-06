@@ -1,0 +1,15 @@
+{
+  "Name": "Markdown editor",
+  "Alias": null,
+  "EditorAlias": "Umbraco.MarkdownEditor",
+  "DatabaseType": 0,
+  "Configuration": {
+    "preview": false,
+    "overlaySize": "large"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/36097e115ef84d20ae611537c78ed6b5",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

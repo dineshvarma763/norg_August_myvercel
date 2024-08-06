@@ -1,0 +1,37 @@
+{
+  "Name": "live chat [COMP] - description - Rich Text Editor",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TinyMCE",
+  "DatabaseType": 0,
+  "Configuration": {
+    "editor": {
+      "toolbar": [
+        "ace",
+        "styleselect",
+        "bold",
+        "italic",
+        "alignleft",
+        "aligncenter",
+        "alignright",
+        "bullist",
+        "numlist",
+        "outdent",
+        "indent",
+        "link",
+        "umbmediapicker",
+        "umbembeddialog"
+      ],
+      "stylesheets": [],
+      "maxImageSize": 500,
+      "mode": "classic"
+    },
+    "overlaySize": "small",
+    "hideLabel": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/60facdd75a3040fcaa8a3ad1e91bacee",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

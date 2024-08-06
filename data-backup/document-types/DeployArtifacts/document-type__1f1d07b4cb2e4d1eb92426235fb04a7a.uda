@@ -1,0 +1,69 @@
+{
+  "Name": "_testimonial List",
+  "Alias": "testimoniallist",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-list color-amber",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": true,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/fc436ab4881148b7bae0b31cb318aa37",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "50e1b968-56cb-4661-a597-966110c704a7",
+      "Name": "Testimonial Sections",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "testimonialSections",
+      "PropertyTypes": [
+        {
+          "Key": "aa9c0176-c637-4ab0-b599-7ee0b350cd35",
+          "Alias": "pageTestimonial",
+          "DataType": "umb://data-type/c9d7fadef6c442bebc38b350debf10f0",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Testimonials",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/1f1d07b4cb2e4d1eb92426235fb04a7a",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/c9d7fadef6c442bebc38b350debf10f0",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/fc436ab4881148b7bae0b31cb318aa37",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

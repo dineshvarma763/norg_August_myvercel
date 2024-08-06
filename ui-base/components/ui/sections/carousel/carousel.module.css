@@ -1,0 +1,7 @@
+.slick-next:before, .slick-prev:before {
+  color: #000;
+}
+
+.slick-prev:before {
+  content: "\2190";
+}

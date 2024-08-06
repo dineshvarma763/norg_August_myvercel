@@ -1,0 +1,9 @@
+{
+  "Name": "umb://headless-stylesheet/richtext.css",
+  "Alias": null,
+  "FileContent": "\r\n\r\n/**umb_name:H1*/\r\nh1 {\r\n\tfont-size: 80px;\r\n\tfont-weight: bold;\r\n\tpadding-bottom: 0.5rem;\r\n\tfont-family: sans;\r\n}\r\n\r\n/**umb_name:H2*/\r\nh2 {\r\n\tfont-size: 60px;\r\n\tfont-weight: bold;\r\n\tpadding-bottom: 0.5rem;\r\n\tfont-family: sans;\r\n}\r\n\r\n/**umb_name:H3*/\r\nh3 {\r\n\tfont-size: 40px;\r\n\tfont-weight: bold;\r\n\tpadding-bottom: 0.5rem;\r\n\tfont-family: sans;\r\n}\r\n\r\n/**umb_name:H4*/\r\nh4 {\r\n\tfont-size: 26px;\r\n\tfont-weight: bold;\r\n\tpadding-bottom: 0.5rem;\r\n\tfont-family: sans;\r\n}\r\n\r\n/**umb_name:H5*/\r\nh5 {\r\n\tfont-size: 16px;\r\n\tfont-weight: 800;\r\n\tpadding-bottom: 0.5rem;\r\n\tfont-family: sans;\r\n}\r\n\r\n/**umb_name:P*/\r\np {\r\n\tmargin-top: 1.5rem;\r\n\tmargin-bottom: 1.5rem;\r\n\tcolor: rgb(15, 23, 42);\r\n}\r\n",
+  "Udi": "umb://headless-stylesheet/richtext.css",
+  "Dependencies": [],
+  "__type": "Umbraco.Cloud.Headless,Umbraco.Cloud.Headless.Deploy.HeadlessStylesheetArtifact",
+  "__version": "4.7.4"
+}

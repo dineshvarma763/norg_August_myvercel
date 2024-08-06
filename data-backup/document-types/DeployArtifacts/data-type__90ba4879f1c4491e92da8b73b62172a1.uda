@@ -1,0 +1,28 @@
+{
+  "Name": "Component - Align - Dropdown",
+  "Alias": null,
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "Left"
+      },
+      {
+        "id": 2,
+        "value": "Center"
+      },
+      {
+        "id": 3,
+        "value": "Right"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/90ba4879f1c4491e92da8b73b62172a1",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

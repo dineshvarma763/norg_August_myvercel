@@ -1,0 +1,43 @@
+{
+  "Name": "Snippet",
+  "Alias": "snippet",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-cut color-purple",
+  "Thumbnail": "folder.png",
+  "Description": "The Snippet is design to hold code or text that can be used in particular locations on the website",
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+  "CompositionContentTypes": [
+    "umb://document-type/030fff97ec29446ab734b266d5776512"
+  ],
+  "PropertyGroups": [],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/9878d2d8c129413a8d37b44cfe27479f",
+  "Dependencies": [
+    {
+      "Udi": "umb://document-type/030fff97ec29446ab734b266d5776512",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/12cb5f138fd244dea02e45dc68511d5f",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

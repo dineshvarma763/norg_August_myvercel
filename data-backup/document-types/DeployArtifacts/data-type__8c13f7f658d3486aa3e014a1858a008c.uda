@@ -1,0 +1,15 @@
+{
+  "Name": "Faq - Content Picker",
+  "Alias": null,
+  "EditorAlias": "Umbraco.ContentPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "showOpenButton": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/8c13f7f658d3486aa3e014a1858a008c",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

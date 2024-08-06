@@ -1,0 +1,90 @@
+{
+  "Name": "Faq",
+  "Alias": "faq",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-ordered-list color-green",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [
+    "umb://document-type/a82b0620daa844aea2f8e84429bfb993",
+    "umb://document-type/f932b1bd134b4cf29785520c4a7714fa"
+  ],
+  "PropertyGroups": [
+    {
+      "Key": "71331f3f-feac-4c31-a3ce-a9f99745faa3",
+      "Name": "FAQ Section",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "faqSection/faqSection",
+      "PropertyTypes": [
+        {
+          "Key": "0bfe5db5-3ea2-4e28-8600-bf4bd6d64074",
+          "Alias": "faqsList",
+          "DataType": "umb://data-type/5c562777d998478cb64761063ebcdfe4",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Faqs List",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "87441b21-265b-4119-bc92-ea8cd9904d31",
+      "Name": "FAQ Section",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "faqSection",
+      "PropertyTypes": []
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/7c2d3b37b291453cb837c341f437f5e2",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/5c562777d998478cb64761063ebcdfe4",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/a82b0620daa844aea2f8e84429bfb993",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type/f932b1bd134b4cf29785520c4a7714fa",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

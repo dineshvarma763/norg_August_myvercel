@@ -1,0 +1,96 @@
+{
+  "Name": "Main Footer",
+  "Alias": "mainFooter",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-footprints color-pink",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "3a60e234-a1d8-47bf-bb6b-aa4aaa2c2d1c",
+      "Name": "Left Section",
+      "SortOrder": 0,
+      "Type": 1,
+      "Alias": "leftSection",
+      "PropertyTypes": [
+        {
+          "Key": "7368c1f4-69b5-4a3a-a6a3-b8280d351cee",
+          "Alias": "leftFooterPart",
+          "DataType": "umb://data-type/782ee0c3404c4820837cb2ef68435b39",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Left Footer Part",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "e74ee6b3-50a7-4ac8-8ff5-7196e66b0bef",
+      "Name": "Right Section",
+      "SortOrder": 1,
+      "Type": 1,
+      "Alias": "rightSection",
+      "PropertyTypes": [
+        {
+          "Key": "c22b466b-0d87-466f-b10e-62de634e0e17",
+          "Alias": "rightFooterPart",
+          "DataType": "umb://data-type/782ee0c3404c4820837cb2ef68435b39",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Right Footer Part",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/8042f68cd3a64729aa2e943e4eaff4ec",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/782ee0c3404c4820837cb2ef68435b39",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/f44d7447f9c74b729972649dbc46f8c5",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,15 @@
+{
+  "Name": "Call To Action (CTA) - Color Picker",
+  "Alias": null,
+  "EditorAlias": "Umbraco.ColorPicker",
+  "DatabaseType": 1,
+  "Configuration": {
+    "useLabel": false,
+    "items": []
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/63e60d1d470b4d76ba0aef5bd59004d9",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

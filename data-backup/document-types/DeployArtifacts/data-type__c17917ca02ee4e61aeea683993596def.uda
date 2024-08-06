@@ -1,0 +1,16 @@
+{
+  "Name": "Google Wide - Google Maps Single Marker",
+  "Alias": null,
+  "EditorAlias": "Our.Umbraco.GMaps",
+  "DatabaseType": 0,
+  "Configuration": {
+    "location": "-37.471310,144.785156",
+    "zoom": 13,
+    "maptype": "roadmap"
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c17917ca02ee4e61aeea683993596def",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

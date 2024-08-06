@@ -1,0 +1,15 @@
+{
+  "Name": "Repeatable textstrings 100",
+  "Alias": null,
+  "EditorAlias": "Umbraco.MultipleTextstring",
+  "DatabaseType": 0,
+  "Configuration": {
+    "Minimum": 0,
+    "Maximum": 100
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/c1a31aac339a48079326ce9079b0667a",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

@@ -1,0 +1,147 @@
+{
+  "Name": "Grid Content - gridBody - Grid layout",
+  "Alias": null,
+  "EditorAlias": "Umbraco.Cloud.Headless.Grid",
+  "DatabaseType": 0,
+  "Configuration": {
+    "items": {
+      "styles": [
+        {
+          "label": "Set a background image",
+          "description": "Set a row background",
+          "key": "background-image",
+          "view": "imagepicker",
+          "modifier": "url({0})"
+        }
+      ],
+      "config": [
+        {
+          "label": "Class",
+          "description": "Set a css class",
+          "key": "class",
+          "view": "textstring"
+        }
+      ],
+      "columns": 12,
+      "templates": [
+        {
+          "name": "1 column layout",
+          "sections": [
+            {
+              "grid": 12
+            }
+          ]
+        }
+      ],
+      "layouts": [
+        {
+          "name": "Row",
+          "areas": [
+            {
+              "grid": 12,
+              "allowed": [],
+              "allowAll": true
+            }
+          ],
+          "label": "Row"
+        },
+        {
+          "name": "One Third",
+          "areas": [
+            {
+              "grid": 4,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 8,
+              "allowed": [],
+              "allowAll": true
+            }
+          ],
+          "label": "One Third"
+        },
+        {
+          "name": "Two Thirds",
+          "areas": [
+            {
+              "grid": 8,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 4,
+              "allowed": [],
+              "allowAll": true
+            }
+          ]
+        },
+        {
+          "name": "Half",
+          "areas": [
+            {
+              "grid": 6,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 6,
+              "allowed": [],
+              "allowAll": true
+            }
+          ]
+        },
+        {
+          "name": "Three Columns",
+          "areas": [
+            {
+              "grid": 4,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 4,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 4,
+              "allowed": [],
+              "allowAll": true
+            }
+          ]
+        },
+        {
+          "name": "Four Columns",
+          "areas": [
+            {
+              "grid": 3,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 3,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 3,
+              "allowed": [],
+              "allowAll": true
+            },
+            {
+              "grid": 3,
+              "allowed": [],
+              "allowAll": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/bad0238cf9474d1788eca2cab6d60eaf",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

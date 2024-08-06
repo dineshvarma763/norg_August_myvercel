@@ -1,0 +1,152 @@
+{
+  "Name": "Variant Dropdown",
+  "Alias": null,
+  "EditorAlias": "Umbraco.DropDown.Flexible",
+  "DatabaseType": 1,
+  "Configuration": {
+    "multiple": false,
+    "items": [
+      {
+        "id": 1,
+        "value": "Feature - Icon CTAs"
+      },
+      {
+        "id": 2,
+        "value": "Feature - Button CTAs"
+      },
+      {
+        "id": 3,
+        "value": "Feature - Image CTAs"
+      },
+      {
+        "id": 27,
+        "value": "Feature - LogoImage CTAs"
+      },
+      {
+        "id": 4,
+        "value": "Feature - Block CTAs"
+      },
+      {
+        "id": 5,
+        "value": "Feature - Icon Download CTAs"
+      },
+      {
+        "id": 6,
+        "value": "Highlight - Company Motto"
+      },
+      {
+        "id": 7,
+        "value": "Hero - Image Highlight"
+      },
+      {
+        "id": 8,
+        "value": "Hero - Faded Information Hero"
+      },
+      {
+        "id": 9,
+        "value": "Hero - Right Image Hero"
+      },
+      {
+        "id": 10,
+        "value": "Hero - Hero CTA Buttons"
+      },
+      {
+        "id": 12,
+        "value": "Hero - Slim Background"
+      },
+      {
+        "id": 11,
+        "value": "Hero - Title Only"
+      },
+      {
+        "id": 23,
+        "value": "Hero - Image Only"
+      },
+      {
+        "id": 22,
+        "value": "Hero - Title, Description & Button"
+      },
+      {
+        "id": 26,
+        "value": "Hero - Title, Description & Image"
+      },
+      {
+        "id": 24,
+        "value": "Hero - Image and Button"
+      },
+      {
+        "id": 25,
+        "value": "Hero - Title, Description & Button With Background Gradient"
+      },
+      {
+        "id": 32,
+        "value": "Hero - Image Highlight + Description"
+      },
+      {
+        "id": 28,
+        "value": "Hero - Description & Button"
+      },
+      {
+        "id": 13,
+        "value": "Grid Content - Small Images"
+      },
+      {
+        "id": 14,
+        "value": "Key Features - Three Column"
+      },
+      {
+        "id": 15,
+        "value": "Key Features - Four Column"
+      },
+      {
+        "id": 16,
+        "value": "Links Listing - Simple Anchor Lists"
+      },
+      {
+        "id": 17,
+        "value": "Links Listing - Download Links"
+      },
+      {
+        "id": 18,
+        "value": "Links Listing - Button Links"
+      },
+      {
+        "id": 19,
+        "value": "Links Listing - Small Download Lists"
+      },
+      {
+        "id": 20,
+        "value": "Testimonial - Default"
+      },
+      {
+        "id": 21,
+        "value": "Testimonial - Question and Answer"
+      },
+      {
+        "id": 29,
+        "value": "Product - Details Listing"
+      },
+      {
+        "id": 31,
+        "value": "Product - Left Image & Right Details Listing"
+      },
+      {
+        "id": 30,
+        "value": "Product - Left Image & Right Details With Social Media Listing"
+      },
+      {
+        "id": 33,
+        "value": "Showcase - V2"
+      },
+      {
+        "id": 34,
+        "value": "Feature - Image Logos"
+      }
+    ]
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/7eec480b073f4cf6bb1700e444caeb05",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

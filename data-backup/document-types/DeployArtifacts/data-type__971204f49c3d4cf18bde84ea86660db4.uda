@@ -1,0 +1,26 @@
+{
+  "Name": "Product Page - Specifications - Block List",
+  "Alias": null,
+  "EditorAlias": "Umbraco.BlockList",
+  "DatabaseType": 0,
+  "Configuration": {
+    "blocks": [
+      {
+        "backgroundColor": "#eeeeee",
+        "iconColor": "#e69138",
+        "contentElementTypeKey": "dfc3bc69-647a-4d53-acca-5421062c8776",
+        "label": "{{category}} - {{title}} - {{value}}",
+        "editorSize": "small",
+        "forceHideContentEditorInOverlay": false
+      }
+    ],
+    "validationLimit": {},
+    "useLiveEditing": false,
+    "useInlineEditingAsDefault": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/971204f49c3d4cf18bde84ea86660db4",
+  "Dependencies": [],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

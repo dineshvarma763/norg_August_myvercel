@@ -1,0 +1,8 @@
+.galleryComponent .slick-list .slick-track {
+padding-left: 25%;
+}
+
+.slick-next:before,
+.slick-prev:before {
+@apply text-my-yellow;
+}

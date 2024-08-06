@@ -1,0 +1,44 @@
+{
+  "Name": "_testimonial component [COMP] - Message - Rich Text Editor",
+  "Alias": null,
+  "EditorAlias": "Umbraco.TinyMCE",
+  "DatabaseType": 0,
+  "Configuration": {
+    "editor": {
+      "toolbar": [
+        "ace",
+        "undo",
+        "redo",
+        "cut",
+        "copy",
+        "paste",
+        "bold",
+        "italic",
+        "alignleft",
+        "aligncenter",
+        "alignright",
+        "link",
+        "unlink"
+      ],
+      "stylesheets": [
+        "/css/richtext.css"
+      ],
+      "maxImageSize": 500,
+      "mode": "classic"
+    },
+    "overlaySize": "medium",
+    "hideLabel": false,
+    "ignoreUserStartNodes": false
+  },
+  "Parent": null,
+  "Udi": "umb://data-type/5374f74b221d4b0ba0ffb0eb67af08b7",
+  "Dependencies": [
+    {
+      "Udi": "umb://headless-stylesheet/richtext.css",
+      "Ordering": false,
+      "Mode": 1
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.DataTypeArtifact",
+  "__version": "4.7.4"
+}

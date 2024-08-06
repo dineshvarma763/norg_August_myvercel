@@ -1,0 +1,415 @@
+{
+  "Name": "Product [COMP]",
+  "Alias": "product",
+  "DefaultTemplate": null,
+  "AllowedTemplates": [],
+  "HistoryCleanup": {
+    "PreventCleanup": false,
+    "KeepAllVersionsNewerThanDays": null,
+    "KeepLatestVersionPerDayForDays": null
+  },
+  "Icon": "icon-keychain color-blue",
+  "Thumbnail": "folder.png",
+  "Description": null,
+  "IsContainer": false,
+  "Permissions": {
+    "AllowVaryingByCulture": false,
+    "AllowVaryingBySegment": false,
+    "AllowedAtRoot": false,
+    "IsElementType": false,
+    "AllowedChildContentTypes": []
+  },
+  "Parent": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+  "CompositionContentTypes": [],
+  "PropertyGroups": [
+    {
+      "Key": "1be1854e-e428-4911-b4f8-f31022014df0",
+      "Name": "Product Details",
+      "SortOrder": 200,
+      "Type": 1,
+      "Alias": "productDetails",
+      "PropertyTypes": []
+    },
+    {
+      "Key": "641a7917-7ebf-4c1d-a6dc-77051ca46250",
+      "Name": "Whats in the box",
+      "SortOrder": 400,
+      "Type": 1,
+      "Alias": "whatsInTheBox",
+      "PropertyTypes": [
+        {
+          "Key": "a21e59f6-1df1-457b-96a2-e49b30898dbb",
+          "Alias": "imageSectionContent",
+          "DataType": "umb://data-type/aca7795dd3c94da689c5c668db6aff12",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Image Section Content",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "78ceeb29-78be-4f14-b149-b08a7fd591f4",
+      "Name": "Frequently asked questions",
+      "SortOrder": 601,
+      "Type": 1,
+      "Alias": "frequentlyAskedQuestions",
+      "PropertyTypes": [
+        {
+          "Key": "96681263-df07-4b15-b95a-4a008d589105",
+          "Alias": "frequentlyAskedQuestions",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Frequently asked questions",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "7b24287a-df97-4595-9225-029bee1d4846",
+      "Name": "Old Fields - No longer used",
+      "SortOrder": 2,
+      "Type": 0,
+      "Alias": "productDetails/oldFieldsNoLongerUsed",
+      "PropertyTypes": [
+        {
+          "Key": "a0c74790-47b0-4200-9b2b-4bfbd0fc29b2",
+          "Alias": "productGallery",
+          "DataType": "umb://data-type/0e63d883b62b479988c3157f82e83ecc",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Product Gallery",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "a6fa31ae-0dea-487a-b989-cb41174c8908",
+          "Alias": "productName",
+          "DataType": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+          "Description": "Redundant - Item Name used instead",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Product Name",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "8b35f78b-6b29-47b3-acb8-8135bbc14f59",
+      "Name": "Media",
+      "SortOrder": 1,
+      "Type": 0,
+      "Alias": "productDetails/media",
+      "PropertyTypes": [
+        {
+          "Key": "7b4c5183-0923-45a0-b6e9-3b3b94ca2fde",
+          "Alias": "downloads",
+          "DataType": "umb://data-type/5fcc75efb72d428aabadb7a8548ad0ad",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Downloads",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "98c2ab61-dc2d-4f6a-a3ed-94a9625b9edc",
+          "Alias": "productVideos",
+          "DataType": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Product Videos",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "9e6262a9-ebbb-4567-bd73-b7f7a85d4107",
+      "Name": "Features",
+      "SortOrder": 600,
+      "Type": 1,
+      "Alias": "features",
+      "PropertyTypes": [
+        {
+          "Key": "2352b1e4-f56b-4895-93c0-4a20c481235f",
+          "Alias": "features",
+          "DataType": "umb://data-type/9c781b0db89f40b689560948ae31b866",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Features",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "ac1bbf4f-ecc9-4d34-b1b7-7420c38f5d26",
+      "Name": "Product Page Settings",
+      "SortOrder": 3,
+      "Type": 0,
+      "Alias": "productDetails/productPageSettings",
+      "PropertyTypes": [
+        {
+          "Key": "7a35d81c-ccd8-4dc9-9f83-5d467b2a31f1",
+          "Alias": "showStandardProductBody",
+          "DataType": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+          "Description": "The majority of product pages will have the standard product body. Some product pages with no contents will need to have this set to false, in order to prevent blank white space.",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Show Standard Product Body",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "bb378cf6-c550-42ac-9b56-5f9d4779b33f",
+      "Name": "Warranty",
+      "SortOrder": 500,
+      "Type": 1,
+      "Alias": "warranty",
+      "PropertyTypes": [
+        {
+          "Key": "1ec0e6af-4e09-421f-baeb-34df0af0ba11",
+          "Alias": "warranty",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Warranty",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "c598920b-3bbc-41eb-b254-dba9012debbb",
+      "Name": "Product Information",
+      "SortOrder": 0,
+      "Type": 0,
+      "Alias": "productDetails/productInformation",
+      "PropertyTypes": [
+        {
+          "Key": "86b34d6f-dc4a-4547-ae8a-06b07b6e7610",
+          "Alias": "productDescription",
+          "DataType": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+          "Description": "Used in explore the range product listings",
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Product Description",
+          "SortOrder": 1,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "8fd922e8-411a-4ce3-b09c-8c308b847a9a",
+          "Alias": "productFeature",
+          "DataType": "umb://data-type/f4aa6b738ede4690bf3eec5664b11327",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Product Feature",
+          "SortOrder": 2,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        },
+        {
+          "Key": "fab46acf-99bc-419a-818d-ff84f302db20",
+          "Alias": "productPhoto",
+          "DataType": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Product Photo",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    },
+    {
+      "Key": "ccf85543-739e-4dae-9659-7abce08c79d5",
+      "Name": "Specification Table",
+      "SortOrder": 300,
+      "Type": 1,
+      "Alias": "specificationTable",
+      "PropertyTypes": [
+        {
+          "Key": "b7f0e767-2b6c-4458-a425-30e978b73451",
+          "Alias": "specifications",
+          "DataType": "umb://data-type/971204f49c3d4cf18bde84ea86660db4",
+          "Description": null,
+          "Mandatory": false,
+          "MandatoryMessage": "",
+          "Name": "Specifications",
+          "SortOrder": 0,
+          "Validation": null,
+          "ValidationMessage": "",
+          "VariesByCulture": false,
+          "VariesBySegment": false,
+          "LabelOnTop": false,
+          "MemberCanEdit": false,
+          "ViewOnProfile": false,
+          "IsSensitive": false
+        }
+      ]
+    }
+  ],
+  "PropertyTypes": [],
+  "Udi": "umb://document-type/4c285d6a60f842d0b40838964de11418",
+  "Dependencies": [
+    {
+      "Udi": "umb://data-type/057a5718a44f4b709895b046a50a4458",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/0cc0eba1996042c9bf9b60e150b429ae",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/0e63d883b62b479988c3157f82e83ecc",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/5fcc75efb72d428aabadb7a8548ad0ad",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/971204f49c3d4cf18bde84ea86660db4",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/9c781b0db89f40b689560948ae31b866",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/aca7795dd3c94da689c5c668db6aff12",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ad9f0cf2bda245d59ea1a63cfc873fd3",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/b4e3535a175347e28568602cf8cfee6f",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/ca90c9500aff4e72b976a30b1ac57dad",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://data-type/f4aa6b738ede4690bf3eec5664b11327",
+      "Ordering": true,
+      "Mode": 0
+    },
+    {
+      "Udi": "umb://document-type-container/0d02f87bc7b44df0bf176ca7d7230c48",
+      "Ordering": true,
+      "Mode": 0
+    }
+  ],
+  "__type": "Umbraco.Deploy,Umbraco.Deploy.Artifacts.ContentType.DocumentTypeArtifact",
+  "__version": "4.7.4"
+}
