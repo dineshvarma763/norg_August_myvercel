@@ -58,6 +58,7 @@ export async function middleware(req: NextRequest) {
 
     if (!path.startsWith('/_next') && !excludedExtensions.some(ext => path.endsWith(ext)) && path !== '/favicon.ico') {
         sanitised_path = path;
+        console.log("Path",path , "lastTrackedPage",lastTrackedPage , "time" , currentTime - lastTrackedTime  )
         const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 500); // Adjust the time gap as needed (here it's set to 1 second)
         if (gaValue && trackPageVisit) {
             if (!path.includes('/domain-token')) {
@@ -68,7 +69,7 @@ export async function middleware(req: NextRequest) {
                   console.log("Most Visited pages:", mostVisitedPage);                  
                   setCookie('mostVisitedPage', mostVisitedPage, { req, res });
                   setCookie('mostVisitedPageCount', pageVisitedCount, { req, res });
-                  setCookie('lastTrackedPage', sanitised_path, { req, res });
+                  setCookie('lastTrackedPage', sanitised_path, { req, res, maxAge: 30 });
                   setCookie('lastTrackedTime', currentTime.toString(), { req, res });
                 }
             }
