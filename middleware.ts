@@ -20,7 +20,7 @@ export async function middleware(req: NextRequest) {
     const lastTrackedPage = cookies.lastTrackedPage || '';
     const lastTrackedTime = cookies.lastTrackedTime ? parseInt(cookies.lastTrackedTime, 10) : 0;
     const currentTime = Date.now();
-    console.log(referrer)
+    
    
     const res = NextResponse.next()
     if (path === '/403') {
@@ -54,17 +54,13 @@ export async function middleware(req: NextRequest) {
 	return NextResponse.redirect(new URL("/403", req.url));
     }
 
-    sanitised_path = path;
-    const trackPageVisits = !lastTrackedPage && (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 1000); 
-    if(trackPageVisits){
-        console.log("i m")
-    }
+   
 
     if (!path.startsWith('/_next') && !excludedExtensions.some(ext => path.endsWith(ext)) && path !== '/favicon.ico') {
         sanitised_path = path;
-        const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 1000); // Adjust the time gap as needed (here it's set to 1 second)
+        const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 500); // Adjust the time gap as needed (here it's set to 1 second)
         if (gaValue && trackPageVisit) {
-            if (path !== '/testMarketing' && path !== '/testUserprofile' && !path.includes('/domain-token')) {
+            if (!path.includes('/domain-token')) {
                 const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);
                 
                 if (data) {
