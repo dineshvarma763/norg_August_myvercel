@@ -3,8 +3,10 @@ import { getCookies,setCookie } from 'cookies-next';
 
 export async function middleware(req: NextRequest) {
     const host = req.headers.get('host')
-    const referrer = req.headers.get('referer')
+    
     const path = req.nextUrl.pathname
+    const temp = req.url
+    console.log("checking url", temp)
     const newdomain = process.env.ATA_WEBSITE_DOMAIN || 'ata-git-production-conversion-digital.vercel.app'
    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
     //const baseUrl = 'norg-cookie-july-lfk9-5ro7ldl6v-dineshvarmas-projects.vercel.app';
