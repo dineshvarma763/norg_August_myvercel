@@ -5,8 +5,10 @@ export async function middleware(req: NextRequest) {
     const host = req.headers.get('host')
     
     const path = req.nextUrl.pathname
-    const temp = req.url
-    console.log("checking url", temp)
+    const temp = req.headers['referer']
+    const nextUrl = req.headers['next-url']; // Case-insensitive, always lowercase  
+    console.log("Next-Url:", nextUrl , path);
+    console.log("checking referer url", temp , path)
     const newdomain = process.env.ATA_WEBSITE_DOMAIN || 'ata-git-production-conversion-digital.vercel.app'
    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
     //const baseUrl = 'norg-cookie-july-lfk9-5ro7ldl6v-dineshvarmas-projects.vercel.app';
