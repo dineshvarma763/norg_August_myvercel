@@ -12,6 +12,9 @@ export async function middleware(req: NextRequest) {
     headers.forEach((value, key) => {
       console.log(`${key}: ${value}`);
     });
+
+    const headerurl = req.headers.get('next-url')
+    console.log("HeaderUrl", headerurl ,"RequestPath" , path)
     const newdomain = process.env.ATA_WEBSITE_DOMAIN || 'ata-git-production-conversion-digital.vercel.app'
    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
     //const baseUrl = 'norg-cookie-july-lfk9-5ro7ldl6v-dineshvarmas-projects.vercel.app';
