@@ -5,18 +5,12 @@ export async function middleware(req: NextRequest) {
     const host = req.headers.get('host')
     
     const path = req.nextUrl.pathname
-    const temp = req.headers['referer']
-    const headers = req.headers;
+    
 
-    // Log all headers
-    headers.forEach((value, key) => {
-      console.log(`${key}: ${value}`);
-    });
-
-    const headerurl = req.headers.get('next-url')
-    console.log("HeaderUrl", headerurl ,"RequestPath" , path)
+    const prefetchUrl = req.headers.get('next-url')
+    console.log("HeaderUrl", prefetchUrl ,"RequestPath" , path)
     const newdomain = process.env.ATA_WEBSITE_DOMAIN || 'ata-git-production-conversion-digital.vercel.app'
-   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
     //const baseUrl = 'norg-cookie-july-lfk9-5ro7ldl6v-dineshvarmas-projects.vercel.app';
     var redirectUrl =  ''
     const ip = req.ip || req.headers.get('x-forwarded-for')
@@ -68,12 +62,11 @@ export async function middleware(req: NextRequest) {
 
     if (!path.startsWith('/_next') && !excludedExtensions.some(ext => path.endsWith(ext)) && path !== '/favicon.ico') {
         sanitised_path = path;
-        console.log("Path",path , "lastTrackedPage",lastTrackedPage , "time" , currentTime - lastTrackedTime  )
-        const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 500); // Adjust the time gap as needed (here it's set to 1 second)
-        if (gaValue && trackPageVisit) {
-            if (!path.includes('/domain-token')) {
-                const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);
-                
+        //console.log("Path",path , "lastTrackedPage",lastTrackedPage , "time" , currentTime - lastTrackedTime  )
+        //const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 500); // Adjust the time gap as needed (here it's set to 1 second)
+        if (gaValue) {
+            if (!path.includes('/domain-token') && prefetchUrl == null) {
+                const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);                
                 if (data) {
                   const { mostVisitedPage, pageVisitedCount } = data;            
                   console.log("Most Visited pages:", mostVisitedPage);                  
