@@ -3,14 +3,9 @@ import { getCookies,setCookie } from 'cookies-next';
 
 export async function middleware(req: NextRequest) {
     const host = req.headers.get('host')
-    
     const path = req.nextUrl.pathname
-    
-
-    const prefetchUrl = req.headers.get('next-url')
-    console.log("HeaderUrl", prefetchUrl ,"RequestPath" , path)
     const newdomain = process.env.ATA_WEBSITE_DOMAIN || 'ata-git-production-conversion-digital.vercel.app'
-    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
+   const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
     //const baseUrl = 'norg-cookie-july-lfk9-5ro7ldl6v-dineshvarmas-projects.vercel.app';
     var redirectUrl =  ''
     const ip = req.ip || req.headers.get('x-forwarded-for')
@@ -24,7 +19,6 @@ export async function middleware(req: NextRequest) {
     const lastTrackedPage = cookies.lastTrackedPage || '';
     const lastTrackedTime = cookies.lastTrackedTime ? parseInt(cookies.lastTrackedTime, 10) : 0;
     const currentTime = Date.now();
-    
    
     const res = NextResponse.next()
     if (path === '/403') {
@@ -58,35 +52,25 @@ export async function middleware(req: NextRequest) {
 	return NextResponse.redirect(new URL("/403", req.url));
     }
 
-   
-
     if (!path.startsWith('/_next') && !excludedExtensions.some(ext => path.endsWith(ext)) && path !== '/favicon.ico') {
         sanitised_path = path;
-        //console.log("Path",path , "lastTrackedPage",lastTrackedPage , "time" , currentTime - lastTrackedTime  )
-        //const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 500); // Adjust the time gap as needed (here it's set to 1 second)
-        if (gaValue) {
-            if (!path.includes('/domain-token') && prefetchUrl == null) {
-                const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);                
+        const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 1000); // Adjust the time gap as needed (here it's set to 1 second)
+        if (gaValue && trackPageVisit) {
+            if (path !== '/testMarketing' && path !== '/testUserprofile' && !path.includes('/domain-token')) {
+                const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);
+                
                 if (data) {
                   const { mostVisitedPage, pageVisitedCount } = data;            
                   console.log("Most Visited pages:", mostVisitedPage);                  
                   setCookie('mostVisitedPage', mostVisitedPage, { req, res });
                   setCookie('mostVisitedPageCount', pageVisitedCount, { req, res });
-                  setCookie('lastTrackedPage', sanitised_path, { req, res, maxAge: 30 });
+                  setCookie('lastTrackedPage', sanitised_path, { req, res });
                   setCookie('lastTrackedTime', currentTime.toString(), { req, res });
                 }
             }
         }
         // Prevent endless redirection loop by checking current path
-        if (path === '/') {
-            if (mostVisitedPage) {
-                if (mostVisitedPage.startsWith('/p')) {
-                    return NextResponse.redirect(new URL('/testMarketing', req.url));
-                } else if (mostVisitedPage.startsWith('/c')) {
-                    return NextResponse.redirect(new URL('/testUserprofile', req.url));
-                }
-            }
-        }
+        
     }
 
     switch(host) {

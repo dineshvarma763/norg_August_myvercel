@@ -8,6 +8,7 @@ import "@/ui-base/styles/globals.css"
 import { Comfortaa, Inter, Urbanist } from "next/font/google"
 
 import ThemeProvider from "./ThemeProvider"
+import { RouteChangeListener } from "./routechange"
 import { CookiesProvider } from 'next-client-cookies/server';
 
 
@@ -256,15 +257,16 @@ export default function RootLayout({ children }) {
         />
         <meta name="theme-color" content="#ffffff" />
       </head>
-
+      <RouteChangeListener/>
       <body
         className={`min-h-screen !overflow-x-hidden font-inter antialiased ${inter.variable} ${fontUrbanist.variable} ${fontComfortaa.variable}`}
       >
-         <CookiesProvider>
+        
+         <CookiesProvider>          
           <ThemeProvider>
             <AlertContainer>{children}</AlertContainer>
             <div id="portal-root"></div>
-          </ThemeProvider>
+          </ThemeProvider>          
         </CookiesProvider>    
       </body>
     </html>
