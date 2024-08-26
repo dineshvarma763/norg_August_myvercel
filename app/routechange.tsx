@@ -16,7 +16,7 @@ export function RouteChangeListener() {
     console.log(`_ga Cookie Value: ${_ga}`);
 
     // Update the if condition to check that pathname is not null and does not contain "/api"
-    if (_ga && pathname && !pathname.includes('/api')) {
+    if (_ga && pathname) {
       fetch(`${baseUrl}/api/trackActivity`, {
         method: 'POST',
         headers: {

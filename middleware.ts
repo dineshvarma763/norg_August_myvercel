@@ -57,7 +57,7 @@ export async function middleware(req: NextRequest) {
         sanitised_path = path;
         const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 1000); // Adjust the time gap as needed (here it's set to 1 second)
         if (gaValue && trackPageVisit) {
-            if (!path.includes('/domain-token') && prefetchUrl == null ) {
+            if (!path.includes('/domain-token') && prefetchUrl == null && !path.includes('/api') ) {
                 const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);
                 
                 if (data) {
