@@ -7,6 +7,7 @@ export async function middleware(req: NextRequest) {
     const newdomain = process.env.ATA_WEBSITE_DOMAIN || 'ata-git-production-conversion-digital.vercel.app'
    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'; 
     //const baseUrl = 'norg-cookie-july-lfk9-5ro7ldl6v-dineshvarmas-projects.vercel.app';
+    const prefetchUrl = req.headers.get('next-url')
     var redirectUrl =  ''
     const ip = req.ip || req.headers.get('x-forwarded-for')
     let mostVisitedPage = '';
@@ -56,7 +57,7 @@ export async function middleware(req: NextRequest) {
         sanitised_path = path;
         const trackPageVisit = !lastTrackedPage || (lastTrackedPage !== sanitised_path && currentTime - lastTrackedTime > 1000); // Adjust the time gap as needed (here it's set to 1 second)
         if (gaValue && trackPageVisit) {
-            if (path !== '/testMarketing' && path !== '/testUserprofile' && !path.includes('/domain-token')) {
+            if (!path.includes('/domain-token') && prefetchUrl == null ) {
                 const data = await insertUserPageVisit(gaValue, sanitised_path, baseUrl);
                 
                 if (data) {
